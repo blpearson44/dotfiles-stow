@@ -1,4 +1,4 @@
-#!/run/current-system/sw/bin/bash
+#!/bin/bash
 # Symlink contents of ./home to $HOME and ./.config to $HOME/.config
 
 DIR=$(pwd)
