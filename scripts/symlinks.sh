@@ -1,7 +1,7 @@
 #!/bin/bash
 # Symlink contents of ./home to $HOME and ./.config to $HOME/.config
 
-DIR=$(pwd)
+DIR=$HOME/dotfiles
 HOMEDIR=$DIR/home/*
 CONFDIR=$DIR/.config/*
 
