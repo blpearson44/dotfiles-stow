@@ -1,3 +1,4 @@
+source ~/.profile
 # Initialize Starship
 eval "$(starship init zsh)"
 # Set default editor
@@ -13,8 +14,8 @@ source ~/.zsh/syntax-highlighting/zsh-syntax-highlighting.zsh
 # Alias common commands
 alias vim="nvim"
 alias e="nvim"
-alias cat="bat -n"
-alias ls="eza --long --git"
+alias cat="batcat -n"
+alias ls="eza --long --git -a"
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."

@@ -5,7 +5,7 @@ SCRDIR=$HOME/dotfiles/scripts
 
 # Symlinks
 echo "Creating symlinks..."
-$SCRDIR/symlinks.sh
+stow . -v
 # Install dependencies
 echo "Installing dependencies..."
 $SCRDIR/dependencies.sh
