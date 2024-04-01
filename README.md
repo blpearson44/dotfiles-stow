@@ -11,3 +11,8 @@ Simply clone this repository to the location of your choice and then run `./syml
 ### WIP
 I am currently working on having my Nix flake automatically clone this repository and symlink these files based on the last commit stored under `blpearson44/flake/dothash`
 If this is being used, then running the dotfiles script under the flake repository will update the commit ID stored.
+
+## TODO
+- [ ] Investigate altuin
+- [ ] Investigate chezmoi
+
