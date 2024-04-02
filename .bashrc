@@ -22,3 +22,4 @@ alias l.="exa -a | egrep '^\.'"                                     # show only 
 
 
 
+. "$HOME/.cargo/env"
