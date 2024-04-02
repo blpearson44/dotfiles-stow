@@ -1,8 +1,5 @@
 vim.g.have_nerd_font = false
 
--- Tabs
-vim.opt.smarttab = true
-vim.opt.shiftwidth =  4
 -- Show line numbers
 vim.opt.number = true
 -- Allow mouse usage

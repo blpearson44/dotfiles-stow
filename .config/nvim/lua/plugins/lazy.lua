@@ -12,6 +12,7 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
+    'tpope/vim-sleuth',
     -- Autopair
     {
 	'windwp/nvim-autopairs',
@@ -41,12 +42,8 @@ require("lazy").setup({
 	    })
 	end
     },
-    -- Lualine
-    {
-	'nvim-lualine/lualine.nvim',
-	dependencies = { 'nvim-tree/nvim-web-devicons' }
-    },
     'mbbill/undotree',
+    -- Tmux integration
     {
 	"christoomey/vim-tmux-navigator",
 	cmd = {
@@ -63,5 +60,7 @@ require("lazy").setup({
 	    { "<c-l>", "<cmd><C-U>TmuxNavigateRight<cr>" },
 	    { "<c-\\>", "<cmd><C-U>TmuxNavigatePrevious<cr>" },
 	},
-    }
+    },
+
+
 })
