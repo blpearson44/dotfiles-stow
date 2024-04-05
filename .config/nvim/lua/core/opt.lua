@@ -24,3 +24,15 @@ vim.opt.cursorline = false
 vim.opt.scrolloff = 11
 vim.opt.hlsearch = true
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
+
+-- fix pasting in WSL2
+in_wsl = os.getenv('WSL_DISTRO_NAME') ~= nil
+
+if in_wsl then
+  vim.g.clipboard = {
+    name = 'wsl clipboard',
+    copy = { ["+"] = { "clip.exe" }, ["*"] = { "clip.exe" }},
+    paste = { ["+"] = { "nvim_paste" }, ["*"] = { "nvim_paste" }},
+    cache_enabled = true
+  }
+end
