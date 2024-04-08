@@ -2,8 +2,8 @@ source ~/.profile
 # Initialize Starship
 eval "$(starship init zsh)"
 # Set default editor
-export EDITOR=/usr/local/bin/nvim
-export VISUAL=/usr/local/bin/nvim
+export EDITOR=/opt/nvim/nvim
+export VISUAL=/opt/nvim/nvim
 
 # Autocompletion and syntax highlighting
 source ~/.zsh/autocomplete/zsh-autocomplete.plugin.zsh
