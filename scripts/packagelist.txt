@@ -1,0 +1,9 @@
+stow
+eza
+tmux
+bat
+zsh
+gpg
+wget
+build-essential
+manpages-dev
