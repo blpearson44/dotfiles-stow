@@ -16,6 +16,7 @@ return {
 
     {
         "NeogitOrg/neogit",
+        event = "UIEnter",
         dependencies = {
             "nvim-lua/plenary.nvim",         -- required
             "sindrets/diffview.nvim",        -- optional - Diff integration
