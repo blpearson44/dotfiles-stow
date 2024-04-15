@@ -26,7 +26,7 @@ vim.opt.hlsearch = true
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
 -- fix pasting in WSL2
-in_wsl = os.getenv('WSL_DISTRO_NAME') ~= nil
+local in_wsl = os.getenv('WSL_DISTRO_NAME') ~= nil
 
 if in_wsl then
   vim.g.clipboard = {
@@ -36,3 +36,13 @@ if in_wsl then
     cache_enabled = true
   }
 end
+
+-- vim.keymap.set('c', 'h', 'vert h', {silent = true})
+
+local function cmd_abbrev(abbrev, expansion)
+  local cmd = 'cabbr ' .. abbrev .. ' <c-r>=(getcmdpos() == 1 && getcmdtype() == ":" ? "' .. expansion .. '" : "' .. abbrev .. '")<CR>'
+  vim.cmd(cmd)
+end
+-- Redirect `:h` to `:FloatingHelp`
+cmd_abbrev('h',         'vert h')
+cmd_abbrev('help',      'vert help')
