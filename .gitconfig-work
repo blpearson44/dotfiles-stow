@@ -1,0 +1,5 @@
+[user]
+	name = Ben Pearson
+	email = bpearson@lnw.com
+[core]
+	sshCommand = "ssh -i ~/.ssh/id_work"
