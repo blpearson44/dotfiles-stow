@@ -1,4 +1,6 @@
 vim.g.have_nerd_font = true
+vim.g.python3_host_prog = "/home/ben/.local/venv/bin/python3"
+vim.g.autochdir = true
 
 -- Show line numbers
 vim.opt.number = true
@@ -37,7 +39,7 @@ if in_wsl then
   }
 end
 
--- vim.keymap.set('c', 'h', 'vert h', {silent = true})
+
 
 local function cmd_abbrev(abbrev, expansion)
   local cmd = 'cabbr ' .. abbrev .. ' <c-r>=(getcmdpos() == 1 && getcmdtype() == ":" ? "' .. expansion .. '" : "' .. abbrev .. '")<CR>'

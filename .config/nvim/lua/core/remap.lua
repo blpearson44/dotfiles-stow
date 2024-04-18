@@ -1,8 +1,12 @@
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
+-- Window managemnet using wincmd
 vim.keymap.set('n', '<leader>wv', vim.cmd.vsplit)
 vim.keymap.set('n', '<leader>wh', vim.cmd.split)
+vim.keymap.set('n', '<leader>wc', vim.cmd.clo)
+vim.keymap.set('n', '<leader>wo', vim.cmd.only)
 
+-- Better mappings for netrw (rangerlike)
 vim.api.nvim_create_autocmd('filetype', {
   pattern = 'netrw',
   desc = 'Better mappings for netrw',
@@ -22,6 +26,7 @@ vim.api.nvim_create_autocmd('filetype', {
   end
 })
 
+-- Close all floating windows
 vim.keymap.set('n', '<leader>wf',
   function()
     local closed_windows = {}

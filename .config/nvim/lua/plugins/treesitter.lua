@@ -1,16 +1,17 @@
 return {
     -- Oh sweet sweet treesitter
     {
-        'nvim-treesitter/nvim-treesitter', 
+        'nvim-treesitter/nvim-treesitter',
         build = ":TSUpdate",
         config = function ()
-            local configs = require("nvim-treesitter.configs")
-            configs.setup({
-                ensure_installed = { "c", "lua", "vim", "vimdoc", "query", "elixir", "heex", "javascript", "html", "markdown", "markdown_inline" },
-                sync_install = false,
-                highlight = { enable = true },
+            require'nvim-treesitter.configs'.setup{
+                highlight = { enable = true, additional_vim_regex_highlighting = true},
+                ensure_installed = { 'lua', 'markdown', 'markdown_inline', 'python', 'yaml', 'json', 'javascript'},
+                auto_install = true,
                 indent = { enable = true },
-            })
+            }
+            vim.g.foldmethod='expr'
+            vim.g.foldexpr='nvim_treesitter#foldexpr()'
         end
     },
 }

@@ -33,7 +33,7 @@ return {
             vim.keymap.set('n', '<leader>gc', builtin.git_commits)
             vim.keymap.set('n', '<leader>gf', builtin.git_bcommits)
             vim.keymap.set('n', '<leader>gs', builtin.git_status)
-            vim.keymap.set('n', '<leader>ss', builtin.grep_string )
+            vim.keymap.set('n', '<leader>ss', builtin.live_grep )
 
 
             require('telescope').setup{

@@ -1,0 +1,9 @@
+2024/04/16-08:34:11.608 18 Reusing MANIFEST /home/ben/.config/obsidian/Local Storage/leveldb/MANIFEST-000001
+2024/04/16-08:34:11.616 18 Recovering log #4
+2024/04/16-08:34:11.617 18 Reusing old log /home/ben/.config/obsidian/Local Storage/leveldb/000004.log 
+2024/04/16-11:25:19.613 17 Level-0 table #7: started
+2024/04/16-11:25:19.615 17 Level-0 table #7: 7537 bytes OK
+2024/04/16-11:25:19.618 17 Delete type=0 #4
+2024/04/16-16:00:20.022 18 Level-0 table #9: started
+2024/04/16-16:00:20.025 18 Level-0 table #9: 6980 bytes OK
+2024/04/16-16:00:20.029 18 Delete type=0 #6
