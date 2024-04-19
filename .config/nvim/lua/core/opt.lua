@@ -25,6 +25,11 @@ vim.opt.inccommand = 'split'
 vim.opt.cursorline = false
 vim.opt.scrolloff = 11
 vim.opt.hlsearch = true
+-- Folding
+vim.opt.foldmethod = 'expr'
+vim.opt.foldexpr = 'nvim_treesitter#foldexpr()'
+vim.opt.foldlevelstart = 99
+-- Cancel highlights from search on esc
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
 -- fix pasting in WSL2

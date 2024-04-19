@@ -1,10 +1,17 @@
 source ~/.profile
 # Initialize Starship
 eval "$(starship init zsh)"
-# Set default editor
-export EDITOR=/opt/nvim/nvim
-export VISUAL=/opt/nvim/nvim
-# Get OS
+# Get OS specific settings
+if [[ "$OSTYPE" == "darwin"* ]]; then
+	# Set default editor
+	export EDITOR=/opt/nvim/nvim
+	export VISUAL=/opt/nvim/nvim
+	alias cat="bat -n"
+else
+	alias cat="batcat -n"
+	export EDITOR=/usr/local/bin/nvim
+	export VISUAL=/usr/local/bin/nvim
+fi
 
 
 # Autocompletion and syntax highlighting
@@ -23,8 +30,3 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias python="~/.local/venv/bin/python3"
 alias pip="~/.local/venv/bin/pip3"
-if [[ "$OSTYPE" == "darwin"* ]]; then
-	alias cat="bat -n"
-else
-	alias cat="batcat -n"
-fi

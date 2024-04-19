@@ -6,5 +6,11 @@ return {
     { 'windwp/nvim-autopairs', event = "InsertEnter", config = true },
     -- Comment with gcc
     { 'numToStr/Comment.nvim', opts = {} },
-    { 'folke/todo-comments.nvim', dependencies = { 'nvim-lua/plenary.nvim' } }
+    { 'folke/todo-comments.nvim', dependencies = { 'nvim-lua/plenary.nvim' } },
+    {
+        'Aasim-A/scrollEOF.nvim',
+        event = { 'CursorMoved', 'WinScrolled' },
+        opts = {},
+        config = true
+    }
 }

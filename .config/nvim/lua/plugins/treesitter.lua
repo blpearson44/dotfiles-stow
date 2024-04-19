@@ -10,8 +10,6 @@ return {
                 auto_install = true,
                 indent = { enable = true },
             }
-            vim.g.foldmethod='expr'
-            vim.g.foldexpr='nvim_treesitter#foldexpr()'
         end
     },
 }
