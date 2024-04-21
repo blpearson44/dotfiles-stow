@@ -19,6 +19,7 @@ return {
         oil.setup({
             keymaps = {
                 ["g?"] = "actions.show_help",
+                ["q"] = "actions.close",
                 ["<CR>"] = "actions.select",
                 ["<C-h>"] = false,
                 ["C-->"] = "actions.select_vsplit",

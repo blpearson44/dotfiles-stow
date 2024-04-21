@@ -7,3 +7,9 @@ gpg
 wget
 build-essential
 manpages-dev
+tree
+ripgrep
+fonts-noto-mono
+ranger
+tldr
+zoxide

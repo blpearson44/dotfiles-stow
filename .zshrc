@@ -30,3 +30,5 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias python="~/.local/venv/bin/python3"
 alias pip="~/.local/venv/bin/pip3"
+
+eval "$(zoxide init zsh)"

@@ -1,6 +1,7 @@
 return {
     'jpalardy/vim-slime',
-    event = 'VeryLazy',
+    lazy = true,
+    ft = "python",
     config = function()
         vim.g.slime_target = "tmux"
     end
