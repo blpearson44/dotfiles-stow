@@ -11,7 +11,3 @@ vim.api.nvim_create_autocmd("FileType", {
         vim.wo.conceallevel = 2
     end,
 })
-
-local function open_folds()
-  vim.api.nvim_command('normal zR')
-end

@@ -53,3 +53,5 @@ end
 -- Redirect `:h` to `:FloatingHelp`
 cmd_abbrev('h',         'vert h')
 cmd_abbrev('help',      'vert help')
+-- Multicursors highlight matches in red
+vim.g.VM_highlight_matches = 'red'

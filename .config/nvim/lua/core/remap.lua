@@ -5,6 +5,11 @@ vim.keymap.set('n', '<leader>wv', vim.cmd.vsplit)
 vim.keymap.set('n', '<leader>wh', vim.cmd.split)
 vim.keymap.set('n', '<leader>wc', vim.cmd.clo)
 vim.keymap.set('n', '<leader>wo', vim.cmd.only)
+-- Multicursor
+vim.g.VM_maps = {
+  ["Find Under"] = "<M-d>",
+}
+
 
 -- Better mappings for netrw (rangerlike)
 vim.api.nvim_create_autocmd('filetype', {

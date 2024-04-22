@@ -4,8 +4,8 @@ eval "$(starship init zsh)"
 # Get OS specific settings
 if [[ "$OSTYPE" == "darwin"* ]]; then
 	# Set default editor
-	export EDITOR=/opt/nvim/nvim
-	export VISUAL=/opt/nvim/nvim
+	export EDITOR=/usr/local/bin/nvim
+	export VISUAL=/usr/local/bin/nvim
 	alias cat="bat -n"
 else
 	alias cat="batcat -n"
