@@ -1,6 +1,10 @@
 vim.g.have_nerd_font = true
 vim.g.python3_host_prog = "/home/ben/.local/venv/bin/python3"
 vim.g.autochdir = true
+vim.opt.expandtab = true
+vim.opt.tabstop=4
+vim.opt.shiftwidth=4
+vim.opt.softtabstop=4
 
 -- Show line numbers
 vim.opt.number = true

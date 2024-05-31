@@ -32,3 +32,6 @@ alias python="~/.local/venv/bin/python3"
 alias pip="~/.local/venv/bin/pip3"
 
 eval "$(zoxide init zsh)"
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH

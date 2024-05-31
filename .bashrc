@@ -18,7 +18,9 @@ alias la='exa -a --color=always --group-directories-first --icons'  # all files 
 alias ll='exa -l --color=always --group-directories-first --icons'  # long format
 alias lt='exa -aT --color=always --group-directories-first --icons' # tree listing
 alias l.="exa -a | egrep '^\.'"                                     # show only dotfiles
-
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
 
 

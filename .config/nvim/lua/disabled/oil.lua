@@ -5,7 +5,7 @@ return {
     config = function()
         local oil = require('oil')
         local actions = require('oil.actions')
-        -- vim.keymap.set('n', '<leader>pv', oil.open_float)
+        vim.keymap.set('n', '<leader>pv', oil.open_float)
         vim.keymap.set('n', '<leader>pp', function()
             if vim.o.filetype == 'oil' then
                 actions.select.callback()
