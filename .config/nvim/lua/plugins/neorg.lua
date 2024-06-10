@@ -1,12 +1,13 @@
 return {
     "nvim-neorg/neorg",
-    dependencies = { "luarocks.nvim" },
+    dependencies = { "luarocks.nvim" , "nvim-neorg/neorg-telescope" },
     version = "*",
     config = function()
         require("neorg").setup {
             load = {
                 ["core.defaults"] = {},
                 ["core.concealer"] = {},
+                ["core.integrations.telescope"] = {},
                 ["core.dirman"] = {
                     config = {
                         workspaces = {

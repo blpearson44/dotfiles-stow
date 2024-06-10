@@ -24,7 +24,9 @@ return {
                         indentscope_color = "",
                     },
                     noice = true,
+                    dashboard = true,
                     gitgutter = true,
+                    leap = true,
                     native_lsp = {
                         enabled = true,
                         virtual_text = {
@@ -40,7 +42,7 @@ return {
                         inlay_hints = {
                             background = true,
                         },
-                    },               }
+                    },}
             })
             vim.cmd.colorscheme("catppuccin-mocha")
         end
