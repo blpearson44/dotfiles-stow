@@ -11,10 +11,28 @@ return {
                     config = {
                         workspaces = {
                             notes = "~/neorg",
+                            work = "~/neorg/lnw"
                         },
                         default_workspace = "notes",
                     },
                 },
+                ['core.completion'] = {
+                    config = {
+                        engine = "nvim-cmp"
+                    }
+                },
+                ['core.summary'] = {
+                    config = {
+                        strategy = "by_path"
+                    }
+                },
+                ["core.keybinds"] = {
+                    config = {
+                        hook = function(keybinds)
+                            keybinds.remap_key("norg", "n", "<C-Space>", "<C-c><C-c>")
+                        end,
+                    }
+                }
             },
         }
 

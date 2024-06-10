@@ -18,14 +18,14 @@ return {
             local files = require('mini.files')
             files.setup {
                 mappings = {
-                    go_in_plus = '<CR>'
+                    go_in_plus = 'l'
                 },
                 windows = {
                     preview = true,
                     width_preview = 50
                 }
             }
-            vim.keymap.set('n', '<leader>pv', 
+            vim.keymap.set('n', '<leader>pv',
                 function()
                     MiniFiles.open(vim.api.nvim_buf_get_name(0))
                 end)

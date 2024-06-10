@@ -24,19 +24,24 @@ return {
         },
         event = 'VimEnter',
         config = function()
+            local telescope = require 'telescope'
             local builtin = require 'telescope.builtin'
             local actions = require 'telescope.actions'
-            vim.keymap.set('n', '<leader>sf', builtin.find_files, {})
+            local utils = require 'telescope.utils'
+            vim.keymap.set('n', '<leader>sf', function()
+                builtin.find_files({cwd=utils.buffer_dir()})
+            end, {})
             vim.keymap.set('n', '<c-p>', builtin.git_files, {})
             vim.keymap.set('n', '<leader><leader>', builtin.buffers)
             vim.keymap.set('n', '<leader>gb', builtin.git_branches)
             vim.keymap.set('n', '<leader>gc', builtin.git_commits)
             vim.keymap.set('n', '<leader>gf', builtin.git_bcommits)
             vim.keymap.set('n', '<leader>gs', builtin.git_status)
-            vim.keymap.set('n', '<leader>ss', builtin.live_grep )
+            vim.keymap.set('n', '<leader>ss', function()
+                builtin.live_grep({cwd=utils.buffer_dir()})
+            end)
 
-
-            require('telescope').setup{
+            telescope.setup{
                 defaults = {
                     grep_open_files = false,
                     mappings = {
@@ -56,6 +61,9 @@ return {
                     buffers = {
                         ignore_current_buffer = true,
                         sort_mru = true
+                    },
+                    live_grep = {
+                        cwd = utils.buffer_dir()
                     }
                 }
             }
