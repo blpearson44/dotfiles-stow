@@ -6,20 +6,6 @@ return {
         dependencies = {
             {
                 'L3MON4D3/LuaSnip',
-                build = (function()
-                    if vim.fn.has 'win32' == 1 or vim.fn.executable 'make' == 0 then
-                        return
-                    end
-                    return 'make install_jsregexp'
-                end)(),
-                dependencies = {
-                    {
-                      'rafamadriz/friendly-snippets',
-                      config = function()
-                        require('luasnip.loaders.from_vscode').lazy_load()
-                      end,
-                    },
-                },
             },
             'saadparwaiz1/cmp_luasnip',
             'hrsh7th/cmp-nvim-lsp',
@@ -29,7 +15,7 @@ return {
         config = function()
             -- See `:help cmp`
             local cmp = require 'cmp'
-            local cmp_autopairs = require('nvim-autopairs.completion.cmp')
+            require('nvim-autopairs.completion.cmp')
             local luasnip = require 'luasnip'
             luasnip.config.setup {}
             -- cmp.event:on(
@@ -54,14 +40,18 @@ return {
                     ['<Tab>'] = cmp.mapping.confirm { select = true },
                     -- <c-l> will move you to the right of each of the expansion locations.
                     -- <c-h> is similar, except moving you backwards.
-                    ['<C-l>'] = cmp.mapping(function()
+                    ['<C-l>'] = cmp.mapping(function(fallback)
                         if luasnip.expand_or_locally_jumpable() then
                             luasnip.expand_or_jump()
+                        else
+                            fallback()
                         end
                     end, { 'i', 's' }),
-                    ['<C-h>'] = cmp.mapping(function()
+                    ['<C-h>'] = cmp.mapping(function(fallback)
                         if luasnip.locally_jumpable(-1) then
                             luasnip.jump(-1)
+                        else
+                            fallback()
                         end
                     end, { 'i', 's' }),
                 },

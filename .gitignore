@@ -1,3 +1,4 @@
 .config/tmux/plugins
 /.config/NuGet
 /.config/gh
+.config/obsidian/*
