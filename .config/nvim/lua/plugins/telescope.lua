@@ -32,7 +32,10 @@ return {
                 builtin.find_files({cwd=utils.buffer_dir()})
             end, {})
             vim.keymap.set('n', '<c-p>', function()
-                builtin.git_files({cwd=utils.buffer_dir()})
+                builtin.git_files({
+                    cwd=utils.buffer_dir(),
+                    builtin.find_files
+                })
             end)
             vim.keymap.set('n', '<leader><leader>', builtin.buffers)
             vim.keymap.set('n', '<leader>gb', function()
@@ -53,9 +56,10 @@ return {
 
             telescope.setup{
                 defaults = {
-                    layout_strategy = 'vertical',
+                    sorting_strategy = "ascending",
                     layout_config = {
                         prompt_position = 'top',
+                        anchor = 'top'
                     },
                     grep_open_files = false,
                     mappings = {
