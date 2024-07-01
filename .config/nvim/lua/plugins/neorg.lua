@@ -13,7 +13,7 @@ return {
                 ["core.integrations.telescope"] = {},
                 ["external.templates"] = {
                     config = {
-                        templates_dir = "/home/ben/neorg/templates",
+                        templates_dir = "~/neorg/templates",
                         default_subcommand = "add"
                     }
                 },
