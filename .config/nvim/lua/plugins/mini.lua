@@ -11,11 +11,6 @@ return {
             -- Better inside/around objects
             require('mini.surround').setup()
             require('mini.ai').setup { n_lines = 500 }
-            local statusline = require 'mini.statusline'
-            statusline.setup { use_icons = vim.g.have_nerd_font }
-            statusline.section_location = function()
-                return '%2l:%-2v'
-            end
             local files = require('mini.files')
             files.setup {
                 mappings = {

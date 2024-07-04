@@ -35,3 +35,5 @@ eval "$(zoxide init zsh)"
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+export WINPROJ="/mnt/c/Users/Ben - Work/Projects"
+
