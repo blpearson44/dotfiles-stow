@@ -1,11 +1,12 @@
 return {
     -- Coloscheme
     {
-        "olimorris/onedarkpro.nvim", priority = 1000, lazy = false,
+        "olimorris/onedarkpro.nvim", enabled = false, lazy = false,
     },
     {
         "folke/tokyonight.nvim",
         lazy = false,
+        enabled = false,
         priority = 1000,
         opts = {},
     },

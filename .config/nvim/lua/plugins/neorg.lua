@@ -4,6 +4,8 @@ return {
         { "pysan3/neorg-templates", dependencies = { "L3MON4D3/LuaSnip" } },
         'pritchett/neorg-capture'
     },
+    cmd = 'Neorg',
+    ft = 'norg',
     version = "*",
     config = function()
         require("neorg").setup {

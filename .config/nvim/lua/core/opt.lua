@@ -50,12 +50,12 @@ end
 
 
 
-local function cmd_abbrev(abbrev, expansion)
-  local cmd = 'cabbr ' .. abbrev .. ' <c-r>=(getcmdpos() == 1 && getcmdtype() == ":" ? "' .. expansion .. '" : "' .. abbrev .. '")<CR>'
-  vim.cmd(cmd)
-end
--- Redirect `:h` to `:FloatingHelp`
-cmd_abbrev('h',         'vert h')
-cmd_abbrev('help',      'vert help')
+-- local function cmd_abbrev(abbrev, expansion)
+--   local cmd = 'cabbr ' .. abbrev .. ' <c-r>=(getcmdpos() == 1 && getcmdtype() == ":" ? "' .. expansion .. '" : "' .. abbrev .. '")<CR>'
+--   vim.cmd(cmd)
+-- end
+-- -- Redirect `:h` to `:FloatingHelp`
+-- cmd_abbrev('h',         'vert h')
+-- cmd_abbrev('help',      'vert help')
 -- Multicursors highlight matches in red
 vim.g.VM_highlight_matches = 'red'
