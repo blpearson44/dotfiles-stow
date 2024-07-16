@@ -12,7 +12,15 @@ else
 	export EDITOR=/usr/local/bin/nvim
 	export VISUAL=/usr/local/bin/nvim
 fi
-
+# Yazi wrapper
+function yy() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")"
+	yazi "$@" --cwd-file="$tmp"
+	if cwd="$(cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+		cd -- "$cwd"
+	fi
+	rm -f -- "$tmp"
+}
 
 # Autocompletion and syntax highlighting
 source ~/.zsh/autocomplete/zsh-autocomplete.plugin.zsh
@@ -36,4 +44,4 @@ export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 export WINPROJ="/mnt/c/Users/Ben - Work/Projects"
-
+export PATH=$HOME/.local/venv/bin:$PATH
