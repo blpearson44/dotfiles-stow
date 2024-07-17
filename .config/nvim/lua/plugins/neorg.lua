@@ -7,6 +7,10 @@ return {
     cmd = 'Neorg',
     ft = 'norg',
     version = "*",
+    keys = {
+        '<leader>nn',
+        '<leader>nj'
+    },
     config = function()
         require("neorg").setup {
             load = {
@@ -36,15 +40,6 @@ return {
                 ['core.summary'] = {
                     config = {
                         strategy = "by_path"
-                    }
-                },
-                ["core.keybinds"] = {
-                    config = {
-                        hook = function(keybinds)
-                            keybinds.remap_key("norg", "n", "<C-Space>", "<C-c><C-c>")
-                            keybinds.unmap("norg", "n", keybinds.leader .. "nn")
-                            keybinds.map("norg", "n", keybinds.leader .. "nt", '<cmd>Neorg templates<CR>')
-                        end,
                     }
                 },
                 ["core.journal"] = {
@@ -96,5 +91,7 @@ return {
         end, { desc = 'Create new file' })
         vim.keymap.set('n', '<leader>nf', '<cmd>Telescope neorg find_norg_files<CR>')
         vim.keymap.set('n', '<leader>nm', '<cmd>Neorg inject-metadata<CR>')
+        vim.keymap.set('n', '<C-c><C-c>', '<Plug>(neorg.qol.todo-items.todo.task-cycle)')
+        vim.keymap.set('n', '<leader>nj', '<cmd>Neorg journal today<CR>')
     end,
 }
