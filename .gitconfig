@@ -5,6 +5,8 @@
   path = ~/.gitconfig-work
 [includeIf "gitdir:~/personal/"]
   path = ~/.gitconfig-personal
+[includeIf "gitdir:~/dotfiles/"]
+  path = ~/.gitconfig-personal
 [credential "https://github.com"]
 	helper = 
 	helper = !/usr/bin/gh auth git-credential

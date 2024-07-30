@@ -2,3 +2,6 @@
 /.config/NuGet
 /.config/gh
 .config/obsidian/*
+.config/go/telemetry/local/gopls@v0.16.1-go1.22.3-linux-amd64-2024-07-19.v1.count
+.config/go/telemetry/local/upload.token
+.config/go/telemetry/local/weekends
