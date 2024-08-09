@@ -37,7 +37,7 @@ return {
                     builtin.find_files
                 })
             end)
-            vim.keymap.set('n', '<leader><leader>', builtin.buffers)
+            vim.keymap.set('n', '<leader><leader>', builtin.buffers, {desc="List open buffers."})
             vim.keymap.set('n', '<leader>gc', function()
                 builtin.git_commits({cwd=utils.buffer_dir()})
             end)

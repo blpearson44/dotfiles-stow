@@ -7,9 +7,10 @@
 return {
     {
         'echasnovski/mini.nvim', version = "*",
+        event = 'VimEnter',
         config = function()
             -- Better inside/around objects
-            require('mini.surround').setup()
+            require('mini.surround').setup({})
             require('mini.ai').setup { n_lines = 500 }
             local files = require('mini.files')
             files.setup {

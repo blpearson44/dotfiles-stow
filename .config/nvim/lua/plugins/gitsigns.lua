@@ -2,6 +2,7 @@
 return {
     -- Gitsigns
     'lewis6991/gitsigns.nvim',
+    event = 'UIEnter',
     opts = {
         signs = {
             add = { text = '+' },
