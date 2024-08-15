@@ -9,7 +9,8 @@ return {
         local wk = require("which-key")
         wk.setup()
         wk.add({
-            {'<leader>g', group = "git"}
+            {'<leader>g', group = "git", desc = 'Git commands'},
+            {'<leader>n', group = "Notes", desc = 'Obsidian Commands'}
         })
 
     end

@@ -1,0 +1,6 @@
+dailynote = "%Y-%m-%d"
+heading_completions = true
+title_headings = true
+new_file_folder_path = "/home/ben/Spiderverse/"
+daily_notes_folder = "/home/ben/Spiderverse/daily/"
+case_matching = "Ignore"

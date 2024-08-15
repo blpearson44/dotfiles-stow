@@ -10,7 +10,7 @@ return {
       -- Useful status updates for LSP.
       -- NOTE: `opts = {}` is the same as calling `require('fidget').setup({})`
       { 'j-hui/fidget.nvim', opts = {} },
-      { 'folke/lazydev.nvim', opts = {} },
+      { 'folke/neodev.nvim', opts = {} },
     },
     config = function()
       vim.api.nvim_create_autocmd('LspAttach', {
@@ -48,9 +48,35 @@ return {
 
       local capabilities = vim.lsp.protocol.make_client_capabilities()
       capabilities = vim.tbl_deep_extend('force', capabilities, require('cmp_nvim_lsp').default_capabilities())
+      -- Markdown Oxide specific
+      -- capabilities.workspace = {
+      --   didChangeWatchedFiles = {
+      --     dynamicRegistration = true,
+      --   }
+      -- }
+      -- local clients = vim.lsp.get_clients({ bufnr = 0 })
+      -- local function check_codelens_support()
+      --   for _, c in ipairs(clients) do
+      --     if c.server_capabilities.codeLensProvider then
+      --       return true
+      --     end
+      --   end
+      --   return false
+      -- end
+      --
+      -- vim.api.nvim_create_autocmd({ 'TextChanged', 'InsertLeave', 'CursorHold', 'LspAttach', 'BufEnter' }, {
+      --   buffer = bufnr,
+      --   callback = function ()
+      --     if check_codelens_support() then
+      --       vim.lsp.codelens.refresh({bufnr = 0})
+      --     end
+      --   end
+      -- })
+      -- -- trigger codelens refresh
+      -- vim.api.nvim_exec_autocmds('User', { pattern = 'LspAttached' })
+
 
       local servers = {
-
         lua_ls = {
           settings = {
             Lua = {
@@ -68,7 +94,8 @@ return {
       vim.list_extend(ensure_installed, {
         'stylua', -- Used to format Lua code
         'powershell_es',
-        'basedpyright'
+        'basedpyright',
+        -- 'markdown-oxide'
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
@@ -81,6 +108,7 @@ return {
           end,
         },
       }
+
     end,
   },
 }
