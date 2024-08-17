@@ -24,7 +24,7 @@ return {
             }
             vim.keymap.set('n', '<leader>pv',
                 function()
-                    MiniFiles.open(vim.api.nvim_buf_get_name(0))
+                    MiniFiles.open()
                 end)
 
         end

@@ -40,16 +40,23 @@ return {
             vim.keymap.set('n', '<leader><leader>', builtin.buffers, {desc="List open buffers."})
             vim.keymap.set('n', '<leader>gc', function()
                 builtin.git_commits({cwd=utils.buffer_dir()})
-            end)
+            end, {desc = "List git commits for the current repository."})
             vim.keymap.set('n', '<leader>gb', function()
                 builtin.git_branches({cwd=utils.buffer_dir()})
-            end)
+            end, {desc = "List git branches for the current repository."})
             vim.keymap.set('n', '<leader>gf', function()
                 builtin.git_bcommits({cwd=utils.buffer_dir()})
-            end)
+            end, {desc = "Git commits for current buffer with diff preview."})
             vim.keymap.set('n', '<leader>ss', function()
                 builtin.live_grep({cwd=utils.buffer_dir()})
-            end)
+            end, {desc = "Search for string in current directory."})
+            vim.keymap.set('n', '<leader>tl', function()
+                builtin.grep_string({
+                    cwd="/home/ben/Spiderverse",
+                    search = "- [ ] ",
+                    grep_open_files = false
+                })
+            end, {desc = "List markdown todos across all files"})
 
             telescope.setup{
                 defaults = {

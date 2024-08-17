@@ -9,7 +9,9 @@ return {
             },
         })
         vim.keymap.set('i', '<M-CR>', '<cmd>MDListItemBelow<CR>')
-        vim.keymap.set('i', '<M-o>', '<cmd>MDListItemBelow<CR>')
-        vim.keymap.set('i', '<M-O>', '<cmd>MDListItemAbove<CR>')
+        vim.keymap.set('n', '<M-o>', '<cmd>MDListItemBelow<CR>')
+        vim.keymap.set('n', '<M-O>', '<cmd>MDListItemAbove<CR>')
+        vim.keymap.set('n', '<C-c><C-c>', '<cmd>MDTaskToggle<CR>')
+        vim.keymap.set('n', '<leader>tx', '<cmd>MDTaskToggle<CR>', {desc = "Toggle task status."})
     end,
 }

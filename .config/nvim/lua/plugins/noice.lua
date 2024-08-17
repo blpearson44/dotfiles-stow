@@ -1,5 +1,4 @@
 -- Adds lots of niceties
--- TODO: Change floating message sizes
 return {
   "folke/noice.nvim",
   event = "VeryLazy",

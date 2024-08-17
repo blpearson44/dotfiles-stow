@@ -1,21 +1,9 @@
 return {
     'stevearc/oil.nvim',
     dependencies = {'nvim-tree/nvim-web-devicons'},
-    event = 'VimEnter',
+    lazy = true,
     config = function()
         local oil = require('oil')
-        local actions = require('oil.actions')
-        vim.keymap.set('n', '<leader>pv', oil.open_float)
-        vim.keymap.set('n', '<leader>pp', function()
-            if vim.o.filetype == 'oil' then
-                actions.select.callback()
-                return
-            end
-            require('oil').open()
-            require('oil.util').run_after_load(0, function()
-                oil.select({ preview = true })
-            end)
-        end)
         oil.setup({
             keymaps = {
                 ["g?"] = "actions.show_help",

@@ -10,8 +10,8 @@ return {
     keys = {
         { '<leader>no', '<cmd>ObsidianQuickSwitch<cr>', desc = 'Obsidian Quick Switch'},
         { '<leader>nn', '<cmd>ObsidianNew<cr>', desc = 'New note'},
-        { '<leader>nj', '<cmd>ObsidianToday<cr>', desc = "Today's note"},
-        { '<leader>nd', '<cmd>ObsidianDailies<cr>', desc = 'Search daily notes'},
+        { '<leader>nd', '<cmd>ObsidianToday<cr>', desc = "Today's note"},
+        { '<leader>nj', '<cmd>ObsidianDailies<cr>', desc = 'Search daily notes'},
         { '<leader>nt', '<cmd>ObsidianTemplate', desc = 'Insert template'}
     },
     dependencies = {

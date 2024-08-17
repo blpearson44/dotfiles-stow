@@ -10,7 +10,8 @@ return {
         wk.setup()
         wk.add({
             {'<leader>g', group = "git", desc = 'Git commands'},
-            {'<leader>n', group = "Notes", desc = 'Obsidian Commands'}
+            {'<leader>n', group = "Notes", desc = 'Obsidian Commands'},
+            {'<leader>t', group = "Todo", desc = "Todo"}
         })
 
     end
