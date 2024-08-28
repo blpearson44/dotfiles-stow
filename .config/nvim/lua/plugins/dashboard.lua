@@ -10,7 +10,7 @@ return {
         },
         shortcut = {
           {desc = '󰚰 Lazy', action = 'Lazy', key = 'p'},
-          {desc = ' Files', action = 'MiniFile.open("~/")', key = 'f'}
+          {desc = ' Files', action = 'MiniFiles.open("~/")', key = 'f'}
         }
       },
       project = {enable = false}
