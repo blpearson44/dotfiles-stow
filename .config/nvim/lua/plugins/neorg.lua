@@ -1,7 +1,7 @@
 return {
     "nvim-neorg/neorg",
     dependencies = {
-        "luarocks.nvim" ,
+        -- "luarocks.nvim" ,
         "nvim-neorg/neorg-telescope",
         "nvim-neorg/tree-sitter-norg-table",
         "pritchett/neorg-capture",
@@ -9,6 +9,7 @@ return {
         'pritchett/neorg-capture',
         'bottd/neorg-worklog',
     },
+    lazy = false,
     version = "*",
     config = function()
         require("neorg").setup {
