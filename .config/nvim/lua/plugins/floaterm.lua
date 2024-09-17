@@ -5,5 +5,6 @@ return {
         { '<leader>tn', '<cmd>FloatermNew! --width=0.75 --height=0.75 --cwd=<buffer><cr>'}
     },
     cmd = 'FloatTermNew',
+    lazy = true,
     opts = {}
 }

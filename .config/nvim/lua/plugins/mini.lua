@@ -25,7 +25,7 @@ return {
             vim.keymap.set('n', '<leader>pv',
                 function()
                     MiniFiles.open()
-                end)
+                end, {desc = "Open file explorer."})
 
         end
     },

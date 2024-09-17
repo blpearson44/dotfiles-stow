@@ -1,15 +1,16 @@
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 -- Window managemnet using wincmd
-vim.keymap.set('n', '<leader>wv', vim.cmd.vsplit)
-vim.keymap.set('n', '<leader>wh', vim.cmd.split)
-vim.keymap.set('n', '<leader>wc', vim.cmd.clo)
-vim.keymap.set('n', '<leader>wo', vim.cmd.only)
+vim.keymap.set('n', '<leader>wv', vim.cmd.vsplit, {desc = "Open Vertical Split."})
+vim.keymap.set('n', '<leader>wh', vim.cmd.split, {desc = "Open Horizontal Split."})
+vim.keymap.set('n', '<leader>wc', vim.cmd.clo, {desc = "Close pane."})
+vim.keymap.set('n', '<leader>wo', vim.cmd.only, {desc = "Close all other panes."})
 -- Multicursor
 vim.g.VM_maps = {
   ["Find Under"] = "<M-d>",
 }
 
+vim.keymap.set({'n', 'v'}, 's', '<Nop>', { noremap = true })
 
 -- Better mappings for netrw (rangerlike)
 vim.api.nvim_create_autocmd('filetype', {

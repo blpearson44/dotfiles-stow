@@ -1,5 +1,5 @@
 return {
     "sindrets/diffview.nvim",
-    event = "UIEnter",
+    lazy = true,
     opts = {}
 }

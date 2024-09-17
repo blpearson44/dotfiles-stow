@@ -38,6 +38,7 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias python="~/.local/venv/bin/python3"
 alias pip="~/.local/venv/bin/pip3"
+alias nvchad="NVIM_APPNAME=nvchad nvim"
 
 eval "$(zoxide init zsh)"
 export GOROOT=/usr/local/go

@@ -9,7 +9,17 @@ return {
         'pritchett/neorg-capture',
         'bottd/neorg-worklog',
     },
-    lazy = false,
+    keys = {
+        "<leader>nf",
+        '<leader>nn',
+        '<leader>nj',
+        '<leader>nd'
+    },
+    cmd = {
+        'Neorg'
+    },
+    ft = 'norg',
+    lazy = true,
     version = "*",
     config = function()
         require("neorg").setup {
@@ -30,9 +40,7 @@ return {
                         heading = "Worklog",
                         -- Title content for "default" workspace
                         default_workspace_title = "notes"
-                    }
-                },
-                -- NOTE: Neorg dir contains notes and templates
+                    } }, -- NOTE: Neorg dir contains notes and templates
                 ["core.dirman"] = {
                     config = {
                         workspaces = {
