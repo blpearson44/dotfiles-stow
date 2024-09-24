@@ -12,7 +12,7 @@ return {
         { '<leader>nn', '<cmd>ObsidianNew<cr>', desc = 'New note'},
         { '<leader>nd', '<cmd>ObsidianToday<cr>', desc = "Today's note"},
         { '<leader>nj', '<cmd>ObsidianDailies<cr>', desc = 'Search daily notes'},
-        { '<leader>nt', '<cmd>ObsidianTemplate', desc = 'Insert template'}
+        { '<leader>nt', '<cmd>ObsidianTemplate<cr>', desc = 'Insert template'}
     },
     dependencies = {
         -- Required.
@@ -42,6 +42,16 @@ return {
             folder = "Templates",
             date_format = "%Y-%m-%d"
         },
+        follow_url_func = function(url)
+            local pattern = "^https://github%.com/[%w%-%.]+/[%w%-%.]+/issues/%d+$"
+
+            if string.match(url, pattern) then
+                vim.cmd.vsplit()
+                vim.cmd.Octo(url)
+                return
+            end
+            vim.ui.open(url)
+        end,
         note_id_func = function(title)
             -- Create note IDs in a Zettelkasten format with a timestamp and a suffix.
             -- In this case a note with the title 'My new note' will be given an ID that looks

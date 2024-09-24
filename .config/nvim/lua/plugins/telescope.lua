@@ -52,17 +52,17 @@ return {
             end, {desc = "Search for string in current directory."})
             vim.keymap.set('n', '<leader>tl', function()
                 builtin.grep_string({
-                    cwd="~/neorg/notes",
-                    search = " ( ) ",
+                    cwd="~/Spiderverse/",
+                    search = "- [ ]",
                     grep_open_files = false,
                     only_sort_text = true,
                     disable_coordinates = true
                 })
             end, {desc = "List markdown todos across all notes."})
-            vim.keymap.set('n', '<leader>nj', function()
-                builtin.find_files({cwd="~/neorg/notes/journal"})
-            end, {desc = "Find journal entry"})
-            vim.keymap.set('n', '<leader>nd', '<cmd>Neorg journal today<cr>', {desc = "Today's journal entry"})
+            -- vim.keymap.set('n', '<leader>nj', function()
+            --     builtin.find_files({cwd="~/neorg/notes/journal"})
+            -- end, {desc = "Find journal entry"})
+            -- vim.keymap.set('n', '<leader>nd', '<cmd>Neorg journal today<cr>', {desc = "Today's journal entry"})
 
             telescope.setup{
                 defaults = {

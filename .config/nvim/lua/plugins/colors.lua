@@ -27,6 +27,7 @@ return {
                         indentscope_color = "",
                     },
                     noice = true,
+                    octo = true,
                     markdown = true,
                     dashboard = true,
                     gitgutter = true,

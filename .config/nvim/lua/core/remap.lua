@@ -5,11 +5,21 @@ vim.keymap.set('n', '<leader>wv', vim.cmd.vsplit, {desc = "Open Vertical Split."
 vim.keymap.set('n', '<leader>wh', vim.cmd.split, {desc = "Open Horizontal Split."})
 vim.keymap.set('n', '<leader>wc', vim.cmd.clo, {desc = "Close pane."})
 vim.keymap.set('n', '<leader>wo', vim.cmd.only, {desc = "Close all other panes."})
+vim.keymap.set('n', '<leader>ti', function()
+  local comment_string = vim.bo.commentstring
+  local todo_text = "TODO: "
+  if comment_string:find("%%s") then
+    todo_text = comment_string:gsub("%%s", todo_text)
+  else
+    todo_text = comment_string:gsub("%s*$", "") .. " " .. todo_text
+  end
+  vim.api.nvim_put({todo_text}, "", true, true)
+  vim.cmd('startinsert')
+end, {desc = "Insert TODO Comment"})
 -- Multicursor
 vim.g.VM_maps = {
   ["Find Under"] = "<M-d>",
 }
-
 vim.keymap.set({'n', 'v'}, 's', '<Nop>', { noremap = true })
 
 -- Better mappings for netrw (rangerlike)

@@ -9,7 +9,7 @@ return {
             buftypes = {"terminal"}
         },
         indent = {
-            char = '╎',
-        }
+            char = "│"
+        },
     }
 }
