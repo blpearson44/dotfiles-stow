@@ -18,6 +18,9 @@ return {
                 },
                 integrations = {
                     cmp = true,
+                    telescope = {
+                        enabled = true,
+                    },
                     gitsigns = true,
                     nvimtree = true,
                     treesitter = true,

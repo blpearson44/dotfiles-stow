@@ -7,18 +7,6 @@ return {
                 'nvim-telescope/telescope-fzf-native.nvim',
                 build = 'make',
                 config = function()
-                    require('telescope').setup{
-                        extensions = {
-                            fzf = {
-                                fuzzy = true,                    -- false will only do exact matching
-                                override_generic_sorter = true,  -- override the generic sorter
-                                override_file_sorter = true,     -- override the file sorter
-                                case_mode = "smart_case",        -- or "ignore_case" or "respect_case"
-                            }
-                        }
-                    }
-                    require('telescope').load_extension('fzf')
-                    require('telescope').load_extension('nerdy')
                 end
             }
         },
@@ -28,6 +16,7 @@ return {
             local builtin = require 'telescope.builtin'
             local actions = require 'telescope.actions'
             local utils = require 'telescope.utils'
+            local colors = require 'catppuccin.palettes'.get_palette('mocha')
             vim.keymap.set('n', '<leader>sf', function()
                 builtin.find_files({cwd=utils.buffer_dir()})
             end, {})
@@ -65,8 +54,26 @@ return {
             -- vim.keymap.set('n', '<leader>nd', '<cmd>Neorg journal today<cr>', {desc = "Today's journal entry"})
 
             telescope.setup{
+                extensions = {
+                    fzf = {
+                        fuzzy = true,                    -- false will only do exact matching
+                        override_generic_sorter = true,  -- override the generic sorter
+                        override_file_sorter = true,     -- override the file sorter
+                        case_mode = "smart_case",        -- or "ignore_case" or "respect_case"
+                    }
+                },
                 defaults = {
+                    borderchars = {
+                        { '─', '│', '─', '│', '┌', '┐', '┘', '└'},
+                        prompt = {"─", " ", " ", "│", '┌', '─', " ", "│"},
+                        results = {" ", " ", "─", "│", "│", " ", "─", "└"},
+                        preview = { '─', '│', '─', ' ', '─', '┐', '┘', '─'},
+                    },
+                    winblend = 5,
+                    results_title = false,
                     sorting_strategy = "ascending",
+                    prompt_prefix = '   ',
+                    selection_caret = ' 󰜴 ',
                     layout_config = {
                         prompt_position = 'top',
                         anchor = 'top'
@@ -95,6 +102,8 @@ return {
                     }
                 }
             }
+            require('telescope').load_extension('fzf')
+            require('telescope').load_extension('nerdy')
         end
     }
 }
