@@ -1,0 +1,175 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.28/schema.json",
+  "app_specific_configuration_path": "$Env:USERPROFILE/applications.yaml",
+  "window_hiding_behaviour": "Cloak",
+  "cross_monitor_move_behaviour": "Insert",
+  "default_workspace_padding": 5,
+  "default_container_padding": 5,
+  "border": true,
+  "border_width": 4,
+  "border_offset": -1,
+  "border_colours": {
+    "single": "#42a5f5",
+    "stack": "#00a542",
+    "monocle": "#ff3399",
+    "unfocused": "#808080"
+  },
+  "border_style": "System",
+  "stackbar": {
+    "height": 40,
+    "mode": "OnStack",
+    "tabs": {
+      "width": 300,
+      "focused_text": "#00a542",
+      "unfocused_text": "#b3b3b3",
+      "background": "#141414"
+    }
+  },
+  "focus_follows_mouse": "Komorebi",
+  "monitors": [
+    {
+      "workspaces": [
+        {
+          "name": "main",
+          "layout": "BSP",
+          "initial_workspace_rules": [
+            {
+              "kind": "Exe",
+              "id": "Firefox.exe",
+              "matching_strategy": "Equals"
+            }
+          ]
+        },
+        {
+          "name": "dev.i",
+          "layout": "BSP",
+          "initial_workspace_rules": [
+            {
+              "kind": "Exe",
+              "id": "Code.exe",
+              "matching_strategy": "Equals"
+            }
+          ]
+        },
+        {
+          "name": "dev.ii",
+          "layout": "BSP"
+        },
+        {
+          "name": "com",
+          "layout": "BSP",
+          "initial_workspace_rules": [
+            {
+              "kind": "Exe",
+              "id": "Slack.exe",
+              "matching_strategy": "Equals"
+            },
+            {
+              "kind": "Exe",
+              "id": "ms-teams.exe",
+              "matching_strategy": "Equals"
+            }
+          ]
+        },
+        {
+          "name": "config",
+          "layout": "BSP"
+        },
+        {
+          "name": "test",
+          "layout": "BSP",
+          "initial_workspace_rules": [
+            {
+              "kind": "Exe",
+              "id": "Postman.exe",
+              "matching_strategy": "Equals"
+            }
+          ]
+        },
+        {
+          "name": "ent",
+          "layout": "BSP",
+          "workspace_rules": [
+            {
+              "kind": "Exe",
+              "id": "Spotify.exe",
+              "matching_strategy": "Equals"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "workspaces": [
+        {
+          "name": "main",
+          "layout": "BSP",
+          "initial_workspace_rules": [
+            {
+              "kind": "Exe",
+              "id": "Firefox.exe",
+              "matching_strategy": "Equals"
+            }
+          ]
+        },
+        {
+          "name": "dev.i",
+          "layout": "BSP",
+          "initial_workspace_rules": [
+            {
+              "kind": "Exe",
+              "id": "WindowsTerminal.exe",
+              "matching_strategy": "Equals"
+            },
+            {
+              "kind": "Exe",
+              "id": "wezterm-gui.exe",
+              "matching_strategy": "Equals"
+            }
+          ]
+        },
+        {
+          "name": "dev.ii",
+          "layout": "BSP"
+        },
+        {
+          "name": "com",
+          "layout": "BSP",
+          "workspace_rules": [
+            {
+              "kind": "Exe",
+              "id": "OUTLOOK.EXE",
+              "matching_strategy": "Equals"
+            }
+          ]
+        },
+        {
+          "name": "config",
+          "layout": "BSP"
+        },
+        {
+          "name": "test",
+          "layout": "BSP",
+          "workspace_rules": [
+            {
+              "kind": "Exe",
+              "id": "RemoteDesktopManager.exe",
+              "matching_strategy": "Legacy"
+            }
+          ]
+        },
+        {
+          "name": "ent",
+          "layout": "BSP",
+          "workspace_rules": [
+            {
+              "kind": "Exe",
+              "id": "Spotify.exe",
+              "matching_strategy": "Equals"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

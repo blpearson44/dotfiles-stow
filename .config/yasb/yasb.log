@@ -1,0 +1,1574 @@
+2024-09-23 12:42:24 INFO log.py:21: Yasb
+2024-09-23 12:42:25 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 12:42:27 INFO weather.py:156: Fetched new weather data at 2024-09-23 12:42:27.073424
+2024-09-23 12:42:27 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 12:42:28 INFO weather.py:156: Fetched new weather data at 2024-09-23 12:42:28.255297
+2024-09-23 12:42:28 INFO event_listener.py:52: Created named pipe yasb-f73524d8-79e3-11ef-b5c5-74d83e4f44c0
+2024-09-23 12:42:28 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-f73524d8-79e3-11ef-b5c5-74d83e4f44c0
+2024-09-23 12:42:28 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 12:42:28 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 12:42:28 DEBUG _windows.py:192: Thread started
+2024-09-23 12:42:28 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-f73524d8-79e3-11ef-b5c5-74d83e4f44c0
+2024-09-23 12:46:48 INFO log.py:21: Yasb
+2024-09-23 12:46:48 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 12:46:48 INFO weather.py:156: Fetched new weather data at 2024-09-23 12:46:48.961281
+2024-09-23 12:46:49 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 12:46:49 INFO weather.py:156: Fetched new weather data at 2024-09-23 12:46:49.876844
+2024-09-23 12:46:50 INFO event_listener.py:52: Created named pipe yasb-9325ae72-79e4-11ef-8797-74d83e4f44c0
+2024-09-23 12:46:50 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-9325ae72-79e4-11ef-8797-74d83e4f44c0
+2024-09-23 12:46:50 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 12:46:50 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 12:46:50 DEBUG _windows.py:192: Thread started
+2024-09-23 12:46:50 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-9325ae72-79e4-11ef-8797-74d83e4f44c0
+2024-09-23 12:46:58 INFO log.py:21: Yasb
+2024-09-23 12:46:58 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 12:46:58 INFO weather.py:156: Fetched new weather data at 2024-09-23 12:46:58.931237
+2024-09-23 12:46:59 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 12:46:59 INFO weather.py:156: Fetched new weather data at 2024-09-23 12:46:59.880893
+2024-09-23 12:47:00 INFO event_listener.py:52: Created named pipe yasb-991b8f88-79e4-11ef-8f8c-74d83e4f44c0
+2024-09-23 12:47:00 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-991b8f88-79e4-11ef-8f8c-74d83e4f44c0
+2024-09-23 12:47:00 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 12:47:00 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 12:47:00 DEBUG _windows.py:192: Thread started
+2024-09-23 12:47:00 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-991b8f88-79e4-11ef-8f8c-74d83e4f44c0
+2024-09-23 12:49:59 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2024-09-23 12:49:59 INFO event_listener.py:93: Attempting to reconnect...
+2024-09-23 12:50:04 INFO event_listener.py:52: Created named pipe yasb-991b8f88-79e4-11ef-8f8c-74d83e4f44c0
+2024-09-23 12:50:04 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-991b8f88-79e4-11ef-8f8c-74d83e4f44c0
+2024-09-23 12:50:04 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2024-09-23 12:50:14 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-991b8f88-79e4-11ef-8f8c-74d83e4f44c0
+2024-09-23 12:50:29 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2024-09-23 12:50:29 INFO event_listener.py:93: Attempting to reconnect...
+2024-09-23 12:50:34 INFO event_listener.py:52: Created named pipe yasb-991b8f88-79e4-11ef-8f8c-74d83e4f44c0
+2024-09-23 12:50:34 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-991b8f88-79e4-11ef-8f8c-74d83e4f44c0
+2024-09-23 12:50:34 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-991b8f88-79e4-11ef-8f8c-74d83e4f44c0
+2024-09-23 12:50:50 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2024-09-23 12:50:50 INFO event_listener.py:93: Attempting to reconnect...
+2024-09-23 12:50:55 INFO event_listener.py:52: Created named pipe yasb-991b8f88-79e4-11ef-8f8c-74d83e4f44c0
+2024-09-23 12:50:55 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-991b8f88-79e4-11ef-8f8c-74d83e4f44c0
+2024-09-23 12:50:55 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-991b8f88-79e4-11ef-8f8c-74d83e4f44c0
+2024-09-23 12:53:36 INFO log.py:21: Yasb
+2024-09-23 12:53:36 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 12:53:36 INFO weather.py:156: Fetched new weather data at 2024-09-23 12:53:36.884261
+2024-09-23 12:53:37 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 12:53:37 INFO weather.py:156: Fetched new weather data at 2024-09-23 12:53:37.792311
+2024-09-23 12:53:37 INFO event_listener.py:52: Created named pipe yasb-8648bd15-79e5-11ef-bd32-74d83e4f44c0
+2024-09-23 12:53:37 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-8648bd15-79e5-11ef-bd32-74d83e4f44c0
+2024-09-23 12:53:38 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 12:53:38 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 12:53:38 DEBUG _windows.py:192: Thread started
+2024-09-23 12:53:38 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-8648bd15-79e5-11ef-bd32-74d83e4f44c0
+2024-09-23 12:57:10 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2024-09-23 12:57:10 INFO event_listener.py:93: Attempting to reconnect...
+2024-09-23 12:57:15 INFO event_listener.py:52: Created named pipe yasb-8648bd15-79e5-11ef-bd32-74d83e4f44c0
+2024-09-23 12:57:15 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-8648bd15-79e5-11ef-bd32-74d83e4f44c0
+2024-09-23 12:57:15 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-8648bd15-79e5-11ef-bd32-74d83e4f44c0
+2024-09-23 12:59:16 INFO log.py:21: Yasb
+2024-09-23 12:59:56 INFO log.py:21: Yasb
+2024-09-23 12:59:56 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 12:59:56 INFO weather.py:156: Fetched new weather data at 2024-09-23 12:59:56.814938
+2024-09-23 12:59:56 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 12:59:57 INFO weather.py:156: Fetched new weather data at 2024-09-23 12:59:57.657741
+2024-09-23 12:59:57 INFO event_listener.py:52: Created named pipe yasb-68b285a1-79e6-11ef-8ca7-74d83e4f44c0
+2024-09-23 12:59:57 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-68b285a1-79e6-11ef-8ca7-74d83e4f44c0
+2024-09-23 12:59:57 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 12:59:57 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 12:59:57 DEBUG _windows.py:192: Thread started
+2024-09-23 12:59:58 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-68b285a1-79e6-11ef-8ca7-74d83e4f44c0
+2024-09-23 13:01:37 INFO log.py:21: Yasb
+2024-09-23 13:01:49 INFO log.py:21: Yasb
+2024-09-23 13:01:50 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:01:50.008151
+2024-09-23 13:01:50 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:01:50 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:01:50 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:01:50.780277
+2024-09-23 13:01:50 INFO event_listener.py:52: Created named pipe yasb-ac1d9604-79e6-11ef-9f8d-74d83e4f44c0
+2024-09-23 13:01:50 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-ac1d9604-79e6-11ef-9f8d-74d83e4f44c0
+2024-09-23 13:01:50 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:01:50 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:01:50 DEBUG _windows.py:192: Thread started
+2024-09-23 13:01:51 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-ac1d9604-79e6-11ef-9f8d-74d83e4f44c0
+2024-09-23 13:02:23 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:02:32 INFO tray.py:197: Exiting Application from tray...
+2024-09-23 13:02:32 DEBUG _windows.py:218: Stopping worker thread...
+2024-09-23 13:02:32 DEBUG _windows.py:201: Exiting thread
+2024-09-23 13:02:32 DEBUG _windows.py:75: Closing
+2024-09-23 13:02:35 INFO log.py:21: Yasb
+2024-09-23 13:02:35 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:02:35.901856
+2024-09-23 13:02:35 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:02:35 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:02:36 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:02:36.722906
+2024-09-23 13:02:36 INFO event_listener.py:52: Created named pipe yasb-c77f8bec-79e6-11ef-bf35-74d83e4f44c0
+2024-09-23 13:02:36 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-c77f8bec-79e6-11ef-bf35-74d83e4f44c0
+2024-09-23 13:02:36 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:02:36 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:02:36 DEBUG _windows.py:192: Thread started
+2024-09-23 13:02:37 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-c77f8bec-79e6-11ef-bf35-74d83e4f44c0
+2024-09-23 13:03:48 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 20 [2:2: font-size]
+2024-09-23 13:03:48 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:03:48 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 20 [2:2: font-size]
+2024-09-23 13:04:56 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 20 [2:2: font-size]
+2024-09-23 13:04:56 ERROR errorhandler.py:105: Property: Invalid value for "CSS Backgrounds and Borders Module Level 3" property: 20 [13:5: border-radius]
+2024-09-23 13:04:56 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:04:56 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 20 [2:2: font-size]
+2024-09-23 13:04:56 ERROR errorhandler.py:105: Property: Invalid value for "CSS Backgrounds and Borders Module Level 3" property: 20 [13:5: border-radius]
+2024-09-23 13:04:56 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 20 [2:2: font-size]
+2024-09-23 13:04:56 ERROR errorhandler.py:105: Property: Invalid value for "CSS Backgrounds and Borders Module Level 3" property: 20 [13:5: border-radius]
+2024-09-23 13:04:58 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 20 [2:2: font-size]
+2024-09-23 13:04:58 ERROR errorhandler.py:105: Property: Invalid value for "CSS Backgrounds and Borders Module Level 3" property: 20 [13:5: border-radius]
+2024-09-23 13:04:58 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 20 [2:2: font-size]
+2024-09-23 13:04:58 ERROR errorhandler.py:105: Property: Invalid value for "CSS Backgrounds and Borders Module Level 3" property: 20 [13:5: border-radius]
+2024-09-23 13:04:58 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 20 [2:2: font-size]
+2024-09-23 13:04:58 ERROR errorhandler.py:105: Property: Invalid value for "CSS Backgrounds and Borders Module Level 3" property: 20 [13:5: border-radius]
+2024-09-23 13:04:58 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 20 [2:2: font-size]
+2024-09-23 13:04:58 ERROR errorhandler.py:105: Property: Invalid value for "CSS Backgrounds and Borders Module Level 3" property: 20 [13:5: border-radius]
+2024-09-23 13:06:24 INFO tray.py:197: Exiting Application from tray...
+2024-09-23 13:06:24 DEBUG _windows.py:218: Stopping worker thread...
+2024-09-23 13:06:24 DEBUG _windows.py:201: Exiting thread
+2024-09-23 13:06:24 DEBUG _windows.py:75: Closing
+2024-09-23 13:08:13 INFO log.py:21: Yasb
+2024-09-23 13:08:13 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:08:13 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:08:13.916512
+2024-09-23 13:08:13 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:08:14 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:08:14.704103
+2024-09-23 13:08:14 INFO event_listener.py:52: Created named pipe yasb-90f6d892-79e7-11ef-b4fe-74d83e4f44c0
+2024-09-23 13:08:14 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-90f6d892-79e7-11ef-b4fe-74d83e4f44c0
+2024-09-23 13:08:14 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:08:14 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:08:14 DEBUG _windows.py:192: Thread started
+2024-09-23 13:08:15 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-90f6d892-79e7-11ef-b4fe-74d83e4f44c0
+2024-09-23 13:11:22 INFO log.py:21: Yasb
+2024-09-23 13:11:23 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:11:23 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:11:23.258900
+2024-09-23 13:11:23 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:11:23 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:11:23.941469
+2024-09-23 13:11:24 INFO event_listener.py:52: Created named pipe yasb-01c16f55-79e8-11ef-a5e0-74d83e4f44c0
+2024-09-23 13:11:24 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-01c16f55-79e8-11ef-a5e0-74d83e4f44c0
+2024-09-23 13:11:24 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:11:24 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:11:24 DEBUG _windows.py:192: Thread started
+2024-09-23 13:11:24 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-01c16f55-79e8-11ef-a5e0-74d83e4f44c0
+2024-09-23 13:11:34 INFO log.py:21: Yasb
+2024-09-23 13:11:34 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:11:34 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:11:34.449189
+2024-09-23 13:11:34 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:11:35 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:11:35.117728
+2024-09-23 13:11:35 INFO event_listener.py:52: Created named pipe yasb-086b5ae5-79e8-11ef-a0f4-74d83e4f44c0
+2024-09-23 13:11:35 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-086b5ae5-79e8-11ef-a0f4-74d83e4f44c0
+2024-09-23 13:11:35 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:11:35 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:11:35 DEBUG _windows.py:192: Thread started
+2024-09-23 13:11:35 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-086b5ae5-79e8-11ef-a0f4-74d83e4f44c0
+2024-09-23 13:11:55 INFO log.py:21: Yasb
+2024-09-23 13:11:55 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:11:56 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:11:56.105476
+2024-09-23 13:11:56 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:11:56 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:11:56.773887
+2024-09-23 13:11:56 INFO event_listener.py:52: Created named pipe yasb-155150ac-79e8-11ef-befc-74d83e4f44c0
+2024-09-23 13:11:56 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-155150ac-79e8-11ef-befc-74d83e4f44c0
+2024-09-23 13:11:57 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:11:57 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:11:57 DEBUG _windows.py:192: Thread started
+2024-09-23 13:11:57 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-155150ac-79e8-11ef-befc-74d83e4f44c0
+2024-09-23 13:12:52 INFO log.py:21: Yasb
+2024-09-23 13:12:52 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:12:53 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:12:53.032584
+2024-09-23 13:12:53 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:12:53 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:12:53.645297
+2024-09-23 13:12:53 INFO event_listener.py:52: Created named pipe yasb-373777e2-79e8-11ef-a4f9-74d83e4f44c0
+2024-09-23 13:12:53 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-373777e2-79e8-11ef-a4f9-74d83e4f44c0
+2024-09-23 13:12:53 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:12:53 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:12:53 DEBUG _windows.py:192: Thread started
+2024-09-23 13:12:53 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-373777e2-79e8-11ef-a4f9-74d83e4f44c0
+2024-09-23 13:13:26 INFO log.py:21: Yasb
+2024-09-23 13:13:26 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:13:26 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:13:26.537782
+2024-09-23 13:13:26 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:13:27 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:13:27.278731
+2024-09-23 13:13:27 INFO event_listener.py:52: Created named pipe yasb-4b42d26b-79e8-11ef-9081-74d83e4f44c0
+2024-09-23 13:13:27 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-4b42d26b-79e8-11ef-9081-74d83e4f44c0
+2024-09-23 13:13:27 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:13:27 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:13:27 DEBUG _windows.py:192: Thread started
+2024-09-23 13:13:27 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-4b42d26b-79e8-11ef-9081-74d83e4f44c0
+2024-09-23 13:13:34 INFO tray.py:197: Exiting Application from tray...
+2024-09-23 13:13:34 DEBUG _windows.py:218: Stopping worker thread...
+2024-09-23 13:13:34 DEBUG _windows.py:201: Exiting thread
+2024-09-23 13:13:34 DEBUG _windows.py:75: Closing
+2024-09-23 13:13:34 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL foreground_change of ActiveWindowWidget object at 0x00000286FC97CA50>. Removing link to WinEvent.EventSystemForeground.
+2024-09-23 13:13:34 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL update_event of TaskbarWidget object at 0x00000286FF5F6990>. Removing link to WinEvent.EventObjectFocus.
+2024-09-23 13:13:34 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL update_event of TaskbarWidget object at 0x00000286FF5F6990>. Removing link to WinEvent.EventObjectDestroy.
+2024-09-23 13:13:34 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL update_event of TaskbarWidget object at 0x00000286FB553110>. Removing link to WinEvent.EventObjectDestroy.
+2024-09-23 13:13:37 INFO log.py:21: Yasb
+2024-09-23 13:13:37 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:13:38 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:13:38.163709
+2024-09-23 13:13:38 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:13:38 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:13:38.873740
+2024-09-23 13:13:39 INFO event_listener.py:52: Created named pipe yasb-522cb5a3-79e8-11ef-ba0a-74d83e4f44c0
+2024-09-23 13:13:39 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-522cb5a3-79e8-11ef-ba0a-74d83e4f44c0
+2024-09-23 13:13:39 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:13:39 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:13:39 DEBUG _windows.py:192: Thread started
+2024-09-23 13:13:39 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-522cb5a3-79e8-11ef-ba0a-74d83e4f44c0
+2024-09-23 13:14:36 INFO log.py:21: Yasb
+2024-09-23 13:14:36 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:14:36 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:14:36.594065
+2024-09-23 13:14:36 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:14:37 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:14:37.300513
+2024-09-23 13:14:37 INFO event_listener.py:52: Created named pipe yasb-7502c549-79e8-11ef-9920-74d83e4f44c0
+2024-09-23 13:14:37 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-7502c549-79e8-11ef-9920-74d83e4f44c0
+2024-09-23 13:14:37 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:14:37 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:14:37 DEBUG _windows.py:192: Thread started
+2024-09-23 13:14:37 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-7502c549-79e8-11ef-9920-74d83e4f44c0
+2024-09-23 13:15:26 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:15:29 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 20 [2:2: font-size]
+2024-09-23 13:15:29 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:15:29 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 20 [2:2: font-size]
+2024-09-23 13:15:29 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 20 [2:2: font-size]
+2024-09-23 13:15:36 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 30 [2:2: font-size]
+2024-09-23 13:15:36 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:15:36 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 30 [2:2: font-size]
+2024-09-23 13:15:36 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 30 [2:2: font-size]
+2024-09-23 13:15:36 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 30 [2:2: font-size]
+2024-09-23 13:15:42 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:15:49 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:16:12 INFO tray.py:197: Exiting Application from tray...
+2024-09-23 13:16:12 DEBUG _windows.py:218: Stopping worker thread...
+2024-09-23 13:16:12 DEBUG _windows.py:201: Exiting thread
+2024-09-23 13:16:12 DEBUG _windows.py:75: Closing
+2024-09-23 13:16:12 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL foreground_change of ActiveWindowWidget object at 0x00000141E5B2CA50>. Removing link to WinEvent.EventSystemForeground.
+2024-09-23 13:16:12 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL update_event of TaskbarWidget object at 0x00000141E8896990>. Removing link to WinEvent.EventObjectDestroy.
+2024-09-23 13:16:12 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL update_event of TaskbarWidget object at 0x00000141E8896990>. Removing link to WinEvent.EventObjectFocus.
+2024-09-23 13:16:12 ERROR event_service.py:30: Failed to emit signal <bound PYQT_SIGNAL update_event of TaskbarWidget object at 0x00000141E47F3110>. Removing link to WinEvent.EventObjectDestroy.
+2024-09-23 13:16:18 INFO log.py:21: Yasb
+2024-09-23 13:16:18 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:16:18 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:16:18.724954
+2024-09-23 13:16:18 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:16:19 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:16:19.407511
+2024-09-23 13:16:19 INFO event_listener.py:52: Created named pipe yasb-b1db550c-79e8-11ef-994f-74d83e4f44c0
+2024-09-23 13:16:19 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-b1db550c-79e8-11ef-994f-74d83e4f44c0
+2024-09-23 13:16:19 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:16:19 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:16:19 DEBUG _windows.py:192: Thread started
+2024-09-23 13:16:19 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-b1db550c-79e8-11ef-994f-74d83e4f44c0
+2024-09-23 13:16:59 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 20 [2:2: font-size]
+2024-09-23 13:16:59 ERROR errorhandler.py:105: Property: Invalid value for "CSS Backgrounds and Borders Module Level 3" property: 20 [13:5: border-radius]
+2024-09-23 13:16:59 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:17:06 INFO log.py:21: Yasb
+2024-09-23 13:17:06 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 20 [2:2: font-size]
+2024-09-23 13:17:06 ERROR errorhandler.py:105: Property: Invalid value for "CSS Backgrounds and Borders Module Level 3" property: 20 [13:5: border-radius]
+2024-09-23 13:17:07 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:17:07.327826
+2024-09-23 13:17:07 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:17:07 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:17:08 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:17:08.037682
+2024-09-23 13:17:08 INFO event_listener.py:52: Created named pipe yasb-ced7d5a8-79e8-11ef-942d-74d83e4f44c0
+2024-09-23 13:17:08 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-ced7d5a8-79e8-11ef-942d-74d83e4f44c0
+2024-09-23 13:17:08 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:17:08 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:17:08 DEBUG _windows.py:192: Thread started
+2024-09-23 13:17:08 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-ced7d5a8-79e8-11ef-942d-74d83e4f44c0
+2024-09-23 13:17:25 INFO tray.py:197: Exiting Application from tray...
+2024-09-23 13:17:25 DEBUG _windows.py:218: Stopping worker thread...
+2024-09-23 13:17:25 DEBUG _windows.py:201: Exiting thread
+2024-09-23 13:17:25 DEBUG _windows.py:75: Closing
+2024-09-23 13:17:32 INFO log.py:21: Yasb
+2024-09-23 13:17:32 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 20 [2:2: font-size]
+2024-09-23 13:17:32 ERROR errorhandler.py:105: Property: Invalid value for "CSS Backgrounds and Borders Module Level 3" property: 20 [13:5: border-radius]
+2024-09-23 13:17:33 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:17:33.016492
+2024-09-23 13:17:33 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:17:33 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:17:33 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:17:33.797146
+2024-09-23 13:17:34 INFO event_listener.py:52: Created named pipe yasb-de31c43f-79e8-11ef-9cb6-74d83e4f44c0
+2024-09-23 13:17:34 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-de31c43f-79e8-11ef-9cb6-74d83e4f44c0
+2024-09-23 13:17:34 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:17:34 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:17:34 DEBUG _windows.py:192: Thread started
+2024-09-23 13:17:34 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-de31c43f-79e8-11ef-9cb6-74d83e4f44c0
+2024-09-23 13:17:55 INFO log.py:21: Yasb
+2024-09-23 13:17:55 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 20 [2:2: font-size]
+2024-09-23 13:17:55 ERROR errorhandler.py:105: Property: Invalid value for "CSS Backgrounds and Borders Module Level 3" property: 20 [13:5: border-radius]
+2024-09-23 13:17:55 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:17:55.687453
+2024-09-23 13:17:55 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:17:55 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:17:56 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:17:56.330628
+2024-09-23 13:17:56 INFO event_listener.py:52: Created named pipe yasb-eba09989-79e8-11ef-9e8b-74d83e4f44c0
+2024-09-23 13:17:56 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-eba09989-79e8-11ef-9e8b-74d83e4f44c0
+2024-09-23 13:17:56 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:17:56 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:17:56 DEBUG _windows.py:192: Thread started
+2024-09-23 13:17:56 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-eba09989-79e8-11ef-9e8b-74d83e4f44c0
+2024-09-23 13:18:15 INFO log.py:21: Yasb
+2024-09-23 13:18:15 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 20 [2:2: font-size]
+2024-09-23 13:18:15 ERROR errorhandler.py:105: Property: Invalid value for "CSS Backgrounds and Borders Module Level 3" property: 20 [13:5: border-radius]
+2024-09-23 13:18:16 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:18:16.210514
+2024-09-23 13:18:16 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:18:16 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:18:16 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:18:16.867660
+2024-09-23 13:18:17 INFO event_listener.py:52: Created named pipe yasb-f7dd5e93-79e8-11ef-bd90-74d83e4f44c0
+2024-09-23 13:18:17 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-f7dd5e93-79e8-11ef-bd90-74d83e4f44c0
+2024-09-23 13:18:17 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:18:17 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:18:17 DEBUG _windows.py:192: Thread started
+2024-09-23 13:18:17 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-f7dd5e93-79e8-11ef-bd90-74d83e4f44c0
+2024-09-23 13:18:34 INFO log.py:21: Yasb
+2024-09-23 13:18:34 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 20 [2:2: font-size]
+2024-09-23 13:18:34 ERROR errorhandler.py:105: Property: Invalid value for "CSS Backgrounds and Borders Module Level 3" property: 20 [13:5: border-radius]
+2024-09-23 13:18:34 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:18:34.995278
+2024-09-23 13:18:35 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:18:35 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:18:35 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:18:35.630418
+2024-09-23 13:18:35 INFO event_listener.py:52: Created named pipe yasb-030ea273-79e9-11ef-8206-74d83e4f44c0
+2024-09-23 13:18:35 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-030ea273-79e9-11ef-8206-74d83e4f44c0
+2024-09-23 13:18:35 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:18:35 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:18:35 DEBUG _windows.py:192: Thread started
+2024-09-23 13:18:35 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-030ea273-79e9-11ef-8206-74d83e4f44c0
+2024-09-23 13:18:55 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 12 [2:2: font-size]
+2024-09-23 13:18:55 ERROR errorhandler.py:105: Property: Invalid value for "CSS Backgrounds and Borders Module Level 3" property: 20 [13:5: border-radius]
+2024-09-23 13:18:55 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:18:55 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 12 [2:2: font-size]
+2024-09-23 13:18:55 ERROR errorhandler.py:105: Property: Invalid value for "CSS Backgrounds and Borders Module Level 3" property: 20 [13:5: border-radius]
+2024-09-23 13:18:55 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 12 [2:2: font-size]
+2024-09-23 13:18:55 ERROR errorhandler.py:105: Property: Invalid value for "CSS Backgrounds and Borders Module Level 3" property: 20 [13:5: border-radius]
+2024-09-23 13:19:14 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:20:07 INFO tray.py:197: Exiting Application from tray...
+2024-09-23 13:20:07 DEBUG _windows.py:218: Stopping worker thread...
+2024-09-23 13:20:07 DEBUG _windows.py:201: Exiting thread
+2024-09-23 13:20:07 DEBUG _windows.py:75: Closing
+2024-09-23 13:20:11 INFO log.py:21: Yasb
+2024-09-23 13:20:12 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:20:12.227443
+2024-09-23 13:20:12 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:20:12 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:20:12 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:20:12.958465
+2024-09-23 13:20:13 INFO event_listener.py:52: Created named pipe yasb-3d10e80a-79e9-11ef-8b53-74d83e4f44c0
+2024-09-23 13:20:13 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-3d10e80a-79e9-11ef-8b53-74d83e4f44c0
+2024-09-23 13:20:13 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:20:13 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:20:13 DEBUG _windows.py:192: Thread started
+2024-09-23 13:20:13 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-3d10e80a-79e9-11ef-8b53-74d83e4f44c0
+2024-09-23 13:22:39 INFO log.py:21: Yasb
+2024-09-23 13:22:39 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:22:39.385416
+2024-09-23 13:22:39 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:22:39 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:22:40 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:22:40.039631
+2024-09-23 13:22:40 INFO event_listener.py:52: Created named pipe yasb-94bb5e5e-79e9-11ef-a180-74d83e4f44c0
+2024-09-23 13:22:40 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-94bb5e5e-79e9-11ef-a180-74d83e4f44c0
+2024-09-23 13:22:40 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:22:40 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:22:40 DEBUG _windows.py:192: Thread started
+2024-09-23 13:22:40 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-94bb5e5e-79e9-11ef-a180-74d83e4f44c0
+2024-09-23 13:22:56 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:23:42 INFO log.py:21: Yasb
+2024-09-23 13:23:55 INFO log.py:21: Yasb
+2024-09-23 13:23:55 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:23:55 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:23:55.672665
+2024-09-23 13:23:55 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:23:56 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:23:56.619641
+2024-09-23 13:23:56 INFO event_listener.py:52: Created named pipe yasb-c265ff6b-79e9-11ef-a625-74d83e4f44c0
+2024-09-23 13:23:56 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-c265ff6b-79e9-11ef-a625-74d83e4f44c0
+2024-09-23 13:23:56 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:23:56 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:23:56 DEBUG _windows.py:192: Thread started
+2024-09-23 13:23:56 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-c265ff6b-79e9-11ef-a625-74d83e4f44c0
+2024-09-23 13:24:40 INFO log.py:21: Yasb
+2024-09-23 13:24:40 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:24:41 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:24:41.180501
+2024-09-23 13:24:41 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:24:42 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:24:42.062982
+2024-09-23 13:24:42 INFO event_listener.py:52: Created named pipe yasb-dd7bc818-79e9-11ef-aed5-74d83e4f44c0
+2024-09-23 13:24:42 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-dd7bc818-79e9-11ef-aed5-74d83e4f44c0
+2024-09-23 13:24:42 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:24:42 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:24:42 DEBUG _windows.py:192: Thread started
+2024-09-23 13:24:42 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-dd7bc818-79e9-11ef-aed5-74d83e4f44c0
+2024-09-23 13:24:49 INFO log.py:21: Yasb
+2024-09-23 13:24:49 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:24:50 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:24:50.147566
+2024-09-23 13:24:50 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:24:51 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:24:51.071826
+2024-09-23 13:24:51 INFO event_listener.py:52: Created named pipe yasb-e2dafafe-79e9-11ef-86a2-74d83e4f44c0
+2024-09-23 13:24:51 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-e2dafafe-79e9-11ef-86a2-74d83e4f44c0
+2024-09-23 13:24:51 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:24:51 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:24:51 DEBUG _windows.py:192: Thread started
+2024-09-23 13:24:51 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-e2dafafe-79e9-11ef-86a2-74d83e4f44c0
+2024-09-23 13:25:13 INFO log.py:21: Yasb
+2024-09-23 13:25:13 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:25:13 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:25:13.882985
+2024-09-23 13:25:14 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:25:14 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:25:14.783097
+2024-09-23 13:25:14 INFO event_listener.py:52: Created named pipe yasb-f0fc363f-79e9-11ef-9fe9-74d83e4f44c0
+2024-09-23 13:25:14 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-f0fc363f-79e9-11ef-9fe9-74d83e4f44c0
+2024-09-23 13:25:15 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:25:15 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:25:15 DEBUG _windows.py:192: Thread started
+2024-09-23 13:25:15 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-f0fc363f-79e9-11ef-9fe9-74d83e4f44c0
+2024-09-23 13:25:49 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:25:55 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:25:57 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:26:12 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:26:18 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:26:47 INFO log.py:21: Yasb
+2024-09-23 13:26:47 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:26:47 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:26:47.810916
+2024-09-23 13:26:48 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:26:48 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:26:48.643139
+2024-09-23 13:26:48 INFO event_listener.py:52: Created named pipe yasb-28ed2348-79ea-11ef-b335-74d83e4f44c0
+2024-09-23 13:26:48 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-28ed2348-79ea-11ef-b335-74d83e4f44c0
+2024-09-23 13:26:48 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:26:48 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:26:48 DEBUG _windows.py:192: Thread started
+2024-09-23 13:26:49 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-28ed2348-79ea-11ef-b335-74d83e4f44c0
+2024-09-23 13:26:54 INFO log.py:21: Yasb
+2024-09-23 13:26:54 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:26:54 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:26:54.501566
+2024-09-23 13:26:54 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:26:55 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:26:55.331034
+2024-09-23 13:26:55 INFO event_listener.py:52: Created named pipe yasb-2cea5941-79ea-11ef-8e20-74d83e4f44c0
+2024-09-23 13:26:55 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-2cea5941-79ea-11ef-8e20-74d83e4f44c0
+2024-09-23 13:26:55 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:26:55 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:26:55 DEBUG _windows.py:192: Thread started
+2024-09-23 13:26:55 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-2cea5941-79ea-11ef-8e20-74d83e4f44c0
+2024-09-23 13:27:07 INFO log.py:21: Yasb
+2024-09-23 13:27:07 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:27:08 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:27:08.098036
+2024-09-23 13:27:08 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:27:08 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:27:08.921299
+2024-09-23 13:27:09 INFO event_listener.py:52: Created named pipe yasb-35059fa6-79ea-11ef-a377-74d83e4f44c0
+2024-09-23 13:27:09 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-35059fa6-79ea-11ef-a377-74d83e4f44c0
+2024-09-23 13:27:09 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:27:09 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:27:09 DEBUG _windows.py:192: Thread started
+2024-09-23 13:27:09 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-35059fa6-79ea-11ef-a377-74d83e4f44c0
+2024-09-23 13:27:29 INFO log.py:21: Yasb
+2024-09-23 13:27:29 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:27:30 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:27:30.015838
+2024-09-23 13:27:30 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:27:30 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:27:30.866286
+2024-09-23 13:27:31 INFO event_listener.py:52: Created named pipe yasb-42178a67-79ea-11ef-abdb-74d83e4f44c0
+2024-09-23 13:27:31 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-42178a67-79ea-11ef-abdb-74d83e4f44c0
+2024-09-23 13:27:31 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:27:31 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:27:31 DEBUG _windows.py:192: Thread started
+2024-09-23 13:27:31 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-42178a67-79ea-11ef-abdb-74d83e4f44c0
+2024-09-23 13:27:43 INFO log.py:21: Yasb
+2024-09-23 13:27:44 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:27:44 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:27:44.346214
+2024-09-23 13:27:44 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:27:45 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:27:45.193047
+2024-09-23 13:27:45 INFO event_listener.py:52: Created named pipe yasb-4aa31e86-79ea-11ef-860e-74d83e4f44c0
+2024-09-23 13:27:45 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-4aa31e86-79ea-11ef-860e-74d83e4f44c0
+2024-09-23 13:27:45 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:27:45 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:27:45 DEBUG _windows.py:192: Thread started
+2024-09-23 13:27:45 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-4aa31e86-79ea-11ef-860e-74d83e4f44c0
+2024-09-23 13:28:21 INFO log.py:21: Yasb
+2024-09-23 13:28:21 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:28:22 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:28:22.098191
+2024-09-23 13:28:22 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:28:23 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:28:23.003289
+2024-09-23 13:28:23 INFO event_listener.py:52: Created named pipe yasb-612a64cb-79ea-11ef-8ada-74d83e4f44c0
+2024-09-23 13:28:23 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-612a64cb-79ea-11ef-8ada-74d83e4f44c0
+2024-09-23 13:28:23 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:28:23 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:28:23 DEBUG _windows.py:192: Thread started
+2024-09-23 13:28:23 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-612a64cb-79ea-11ef-8ada-74d83e4f44c0
+2024-09-23 13:28:48 INFO log.py:21: Yasb
+2024-09-23 13:28:48 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:28:49 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:28:49.188554
+2024-09-23 13:28:49 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:28:50 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:28:50.048024
+2024-09-23 13:28:50 INFO event_listener.py:52: Created named pipe yasb-714b170e-79ea-11ef-af63-74d83e4f44c0
+2024-09-23 13:28:50 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-714b170e-79ea-11ef-af63-74d83e4f44c0
+2024-09-23 13:28:50 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:28:50 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:28:50 DEBUG _windows.py:192: Thread started
+2024-09-23 13:28:50 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-714b170e-79ea-11ef-af63-74d83e4f44c0
+2024-09-23 13:29:19 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:31:13 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:31:17 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:31:43 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:32:07 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:32:11 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:32:38 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:32:44 INFO tray.py:197: Exiting Application from tray...
+2024-09-23 13:32:44 DEBUG _windows.py:218: Stopping worker thread...
+2024-09-23 13:32:44 DEBUG _windows.py:201: Exiting thread
+2024-09-23 13:32:44 DEBUG _windows.py:75: Closing
+2024-09-23 13:32:46 INFO log.py:21: Yasb
+2024-09-23 13:32:47 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:32:47 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:32:47.422279
+2024-09-23 13:32:47 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:32:48 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:32:48.413001
+2024-09-23 13:32:48 INFO event_listener.py:52: Created named pipe yasb-ff607a12-79ea-11ef-b478-74d83e4f44c0
+2024-09-23 13:32:48 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-ff607a12-79ea-11ef-b478-74d83e4f44c0
+2024-09-23 13:32:48 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:32:48 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:32:48 DEBUG _windows.py:192: Thread started
+2024-09-23 13:32:48 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-ff607a12-79ea-11ef-b478-74d83e4f44c0
+2024-09-23 13:33:03 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:33:18 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:33:24 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 10 12px [310:5: padding]
+2024-09-23 13:33:25 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:33:25 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 10 12px [310:5: padding]
+2024-09-23 13:33:25 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 10 12px [310:5: padding]
+2024-09-23 13:33:25 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 10 12px [310:5: padding]
+2024-09-23 13:33:25 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 10 12px [310:5: padding]
+2024-09-23 13:33:25 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 10 12px [310:5: padding]
+2024-09-23 13:33:25 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 10 12px [310:5: padding]
+2024-09-23 13:33:25 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 10 12px [310:5: padding]
+2024-09-23 13:33:25 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 10 12px [310:5: padding]
+2024-09-23 13:33:25 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 10 12px [310:5: padding]
+2024-09-23 13:33:25 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 10 12px [310:5: padding]
+2024-09-23 13:33:26 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 10 12px [310:5: padding]
+2024-09-23 13:33:26 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 10 12px [310:5: padding]
+2024-09-23 13:33:26 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 10 12px [310:5: padding]
+2024-09-23 13:33:26 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 10 12px [310:5: padding]
+2024-09-23 13:33:26 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 10 12px [310:5: padding]
+2024-09-23 13:33:26 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 10 12px [310:5: padding]
+2024-09-23 13:33:26 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 10 12px [310:5: padding]
+2024-09-23 13:33:26 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 10 12px [310:5: padding]
+2024-09-23 13:33:26 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 10 12px [310:5: padding]
+2024-09-23 13:33:26 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 10 12px [310:5: padding]
+2024-09-23 13:33:26 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 10 12px [310:5: padding]
+2024-09-23 13:33:26 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 10 12px [310:5: padding]
+2024-09-23 13:33:26 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 10 12px [310:5: padding]
+2024-09-23 13:33:26 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 10 12px [310:5: padding]
+2024-09-23 13:33:26 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 10 12px [310:5: padding]
+2024-09-23 13:33:45 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:35:00 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:35:25 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:35:56 INFO log.py:21: Yasb
+2024-09-23 13:35:56 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:35:56 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:35:56.861905
+2024-09-23 13:35:57 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:35:57 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:35:57.768683
+2024-09-23 13:35:57 INFO event_listener.py:52: Created named pipe yasb-703c5d43-79eb-11ef-b207-74d83e4f44c0
+2024-09-23 13:35:57 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-703c5d43-79eb-11ef-b207-74d83e4f44c0
+2024-09-23 13:35:58 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:35:58 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:35:58 DEBUG _windows.py:192: Thread started
+2024-09-23 13:35:58 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-703c5d43-79eb-11ef-b207-74d83e4f44c0
+2024-09-23 13:36:02 INFO log.py:21: Yasb
+2024-09-23 13:36:02 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:36:02 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:36:02.605931
+2024-09-23 13:36:02 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:36:03 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:36:03.491061
+2024-09-23 13:36:03 INFO event_listener.py:52: Created named pipe yasb-73a5859f-79eb-11ef-8242-74d83e4f44c0
+2024-09-23 13:36:03 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-73a5859f-79eb-11ef-8242-74d83e4f44c0
+2024-09-23 13:36:03 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:36:03 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:36:03 DEBUG _windows.py:192: Thread started
+2024-09-23 13:36:03 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-73a5859f-79eb-11ef-8242-74d83e4f44c0
+2024-09-23 13:36:32 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:36:50 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:36:57 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:37:52 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:38:37 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:38:47 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 8 8px 8 8px [74:5: padding]
+2024-09-23 13:38:47 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:38:47 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 8 8px 8 8px [74:5: padding]
+2024-09-23 13:38:47 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 8 8px 8 8px [74:5: padding]
+2024-09-23 13:38:47 ERROR errorhandler.py:105: Property: Invalid value for "CSS Level 2.1" property: 8 8px 8 8px [74:5: padding]
+2024-09-23 13:38:50 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:39:29 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:40:05 INFO log.py:21: Yasb
+2024-09-23 13:40:05 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:40:05 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:40:05.498439
+2024-09-23 13:40:05 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:40:06 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:40:06.356220
+2024-09-23 13:40:06 INFO event_listener.py:52: Created named pipe yasb-04662d2c-79ec-11ef-980d-74d83e4f44c0
+2024-09-23 13:40:06 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-04662d2c-79ec-11ef-980d-74d83e4f44c0
+2024-09-23 13:40:06 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:40:06 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:40:06 DEBUG _windows.py:192: Thread started
+2024-09-23 13:40:06 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-04662d2c-79ec-11ef-980d-74d83e4f44c0
+2024-09-23 13:40:15 INFO log.py:21: Yasb
+2024-09-23 13:40:16 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:40:16 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:40:16.354026
+2024-09-23 13:40:16 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:40:16 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:40:16.990890
+2024-09-23 13:40:17 INFO event_listener.py:52: Created named pipe yasb-0abf23e7-79ec-11ef-aa82-74d83e4f44c0
+2024-09-23 13:40:17 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-0abf23e7-79ec-11ef-aa82-74d83e4f44c0
+2024-09-23 13:40:17 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:40:17 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:40:17 DEBUG _windows.py:192: Thread started
+2024-09-23 13:40:17 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-0abf23e7-79ec-11ef-aa82-74d83e4f44c0
+2024-09-23 13:42:59 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-23 13:50:16 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:50:16.346233
+2024-09-23 13:50:16 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:50:16.987191
+2024-09-23 13:59:54 INFO bar_manager.py:67: Screens updated. Re-initialising all bars.
+2024-09-23 13:59:55 INFO log.py:21: Yasb
+2024-09-23 13:59:55 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 13:59:55 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:59:55.653441
+2024-09-23 13:59:55 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 13:59:56 INFO weather.py:156: Fetched new weather data at 2024-09-23 13:59:56.308097
+2024-09-23 13:59:56 INFO event_listener.py:52: Created named pipe yasb-c9a5e79a-79ee-11ef-a84f-74d83e4f44c0
+2024-09-23 13:59:56 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-c9a5e79a-79ee-11ef-a84f-74d83e4f44c0
+2024-09-23 13:59:56 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 13:59:56 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 13:59:56 DEBUG _windows.py:192: Thread started
+2024-09-23 13:59:56 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-c9a5e79a-79ee-11ef-a84f-74d83e4f44c0
+2024-09-23 14:09:55 INFO weather.py:156: Fetched new weather data at 2024-09-23 14:09:55.646554
+2024-09-23 14:09:56 INFO weather.py:156: Fetched new weather data at 2024-09-23 14:09:56.300394
+2024-09-23 14:19:55 INFO weather.py:156: Fetched new weather data at 2024-09-23 14:19:55.644268
+2024-09-23 14:19:56 INFO weather.py:156: Fetched new weather data at 2024-09-23 14:19:56.302531
+2024-09-23 14:29:55 INFO weather.py:156: Fetched new weather data at 2024-09-23 14:29:55.647209
+2024-09-23 14:29:56 INFO weather.py:156: Fetched new weather data at 2024-09-23 14:29:56.302029
+2024-09-23 14:30:23 INFO bar_manager.py:67: Screens updated. Re-initialising all bars.
+2024-09-23 14:30:24 INFO log.py:21: Yasb
+2024-09-23 14:30:24 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 14:30:25 INFO weather.py:156: Fetched new weather data at 2024-09-23 14:30:25.896991
+2024-09-23 14:30:25 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 14:30:26 INFO weather.py:156: Fetched new weather data at 2024-09-23 14:30:26.915642
+2024-09-23 14:30:26 INFO event_listener.py:52: Created named pipe yasb-0cbf71b7-79f3-11ef-9a4f-74d83e4f44c0
+2024-09-23 14:30:27 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-0cbf71b7-79f3-11ef-9a4f-74d83e4f44c0
+2024-09-23 14:30:27 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 14:30:27 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 14:30:27 DEBUG _windows.py:192: Thread started
+2024-09-23 14:30:27 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-0cbf71b7-79f3-11ef-9a4f-74d83e4f44c0
+2024-09-23 14:40:25 INFO weather.py:156: Fetched new weather data at 2024-09-23 14:40:25.895650
+2024-09-23 14:40:26 INFO weather.py:156: Fetched new weather data at 2024-09-23 14:40:26.909080
+2024-09-23 14:50:25 INFO weather.py:156: Fetched new weather data at 2024-09-23 14:50:25.895307
+2024-09-23 14:50:26 INFO weather.py:156: Fetched new weather data at 2024-09-23 14:50:26.912436
+2024-09-23 15:00:21 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2024-09-23 15:00:21 INFO event_listener.py:93: Attempting to reconnect...
+2024-09-23 15:00:25 INFO weather.py:156: Fetched new weather data at 2024-09-23 15:00:25.895938
+2024-09-23 15:00:26 INFO event_listener.py:52: Created named pipe yasb-0cbf71b7-79f3-11ef-9a4f-74d83e4f44c0
+2024-09-23 15:00:26 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-0cbf71b7-79f3-11ef-9a4f-74d83e4f44c0
+2024-09-23 15:00:26 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-0cbf71b7-79f3-11ef-9a4f-74d83e4f44c0
+2024-09-23 15:00:26 INFO weather.py:156: Fetched new weather data at 2024-09-23 15:00:26.909822
+2024-09-23 15:00:32 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2024-09-23 15:00:32 INFO event_listener.py:93: Attempting to reconnect...
+2024-09-23 15:00:37 INFO event_listener.py:52: Created named pipe yasb-0cbf71b7-79f3-11ef-9a4f-74d83e4f44c0
+2024-09-23 15:00:37 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-0cbf71b7-79f3-11ef-9a4f-74d83e4f44c0
+2024-09-23 15:00:37 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-0cbf71b7-79f3-11ef-9a4f-74d83e4f44c0
+2024-09-23 15:10:25 INFO weather.py:156: Fetched new weather data at 2024-09-23 15:10:25.896221
+2024-09-23 15:10:26 INFO weather.py:156: Fetched new weather data at 2024-09-23 15:10:26.913479
+2024-09-23 15:20:25 INFO weather.py:156: Fetched new weather data at 2024-09-23 15:20:25.893527
+2024-09-23 15:20:26 INFO weather.py:156: Fetched new weather data at 2024-09-23 15:20:26.912361
+2024-09-23 15:30:25 INFO weather.py:156: Fetched new weather data at 2024-09-23 15:30:25.895740
+2024-09-23 15:30:26 INFO weather.py:156: Fetched new weather data at 2024-09-23 15:30:26.910660
+2024-09-23 15:40:25 INFO weather.py:156: Fetched new weather data at 2024-09-23 15:40:25.897665
+2024-09-23 15:40:26 INFO weather.py:156: Fetched new weather data at 2024-09-23 15:40:26.910454
+2024-09-23 15:50:25 INFO weather.py:156: Fetched new weather data at 2024-09-23 15:50:25.897231
+2024-09-23 15:50:26 INFO weather.py:156: Fetched new weather data at 2024-09-23 15:50:26.910425
+2024-09-23 16:00:25 INFO weather.py:156: Fetched new weather data at 2024-09-23 16:00:25.894936
+2024-09-23 16:00:26 INFO weather.py:156: Fetched new weather data at 2024-09-23 16:00:26.911654
+2024-09-23 16:10:25 INFO weather.py:156: Fetched new weather data at 2024-09-23 16:10:25.895820
+2024-09-23 16:10:26 INFO weather.py:156: Fetched new weather data at 2024-09-23 16:10:26.910277
+2024-09-23 16:20:25 INFO weather.py:156: Fetched new weather data at 2024-09-23 16:20:25.894339
+2024-09-23 16:20:26 INFO weather.py:156: Fetched new weather data at 2024-09-23 16:20:26.910641
+2024-09-23 16:30:25 INFO weather.py:156: Fetched new weather data at 2024-09-23 16:30:25.895383
+2024-09-23 16:30:26 INFO weather.py:156: Fetched new weather data at 2024-09-23 16:30:26.910437
+2024-09-23 16:40:25 INFO weather.py:156: Fetched new weather data at 2024-09-23 16:40:25.897566
+2024-09-23 16:40:26 INFO weather.py:156: Fetched new weather data at 2024-09-23 16:40:26.912046
+2024-09-23 16:46:25 INFO bar_manager.py:67: Screens updated. Re-initialising all bars.
+2024-09-23 16:46:26 INFO log.py:21: Yasb
+2024-09-23 16:46:26 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 16:46:26 INFO weather.py:156: Fetched new weather data at 2024-09-23 16:46:26.972714
+2024-09-23 16:46:27 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 16:46:27 INFO weather.py:156: Fetched new weather data at 2024-09-23 16:46:27.773925
+2024-09-23 16:46:27 INFO event_listener.py:52: Created named pipe yasb-0d0a3893-7a06-11ef-b334-74d83e4f44c0
+2024-09-23 16:46:27 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-0d0a3893-7a06-11ef-b334-74d83e4f44c0
+2024-09-23 16:46:27 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 16:46:28 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 16:46:28 DEBUG _windows.py:192: Thread started
+2024-09-23 16:46:28 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-0d0a3893-7a06-11ef-b334-74d83e4f44c0
+2024-09-23 16:56:26 INFO weather.py:156: Fetched new weather data at 2024-09-23 16:56:26.973691
+2024-09-23 16:56:27 INFO weather.py:156: Fetched new weather data at 2024-09-23 16:56:27.770772
+2024-09-23 17:05:11 INFO bar_manager.py:67: Screens updated. Re-initialising all bars.
+2024-09-23 17:05:12 INFO log.py:21: Yasb
+2024-09-23 17:05:12 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-23 17:05:12 INFO weather.py:156: Fetched new weather data at 2024-09-23 17:05:12.730610
+2024-09-23 17:05:12 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-23 17:05:13 INFO weather.py:156: Fetched new weather data at 2024-09-23 17:05:13.315032
+2024-09-23 17:05:13 INFO event_listener.py:52: Created named pipe yasb-abdb099b-7a08-11ef-a281-74d83e4f44c0
+2024-09-23 17:05:13 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-abdb099b-7a08-11ef-a281-74d83e4f44c0
+2024-09-23 17:05:13 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-23 17:05:13 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-23 17:05:13 DEBUG _windows.py:192: Thread started
+2024-09-23 17:05:13 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-abdb099b-7a08-11ef-a281-74d83e4f44c0
+2024-09-23 17:14:36 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2024-09-23 17:14:36 INFO event_listener.py:93: Attempting to reconnect...
+2024-09-24 08:23:07 INFO log.py:21: Yasb
+2024-09-24 08:23:07 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-24 08:23:09 INFO weather.py:156: Fetched new weather data at 2024-09-24 08:23:09.682768
+2024-09-24 08:23:09 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-24 08:23:10 INFO weather.py:156: Fetched new weather data at 2024-09-24 08:23:10.658049
+2024-09-24 08:23:10 INFO event_listener.py:52: Created named pipe yasb-e886cb1b-7a88-11ef-b8a6-74d83e4f44c0
+2024-09-24 08:23:10 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-e886cb1b-7a88-11ef-b8a6-74d83e4f44c0
+2024-09-24 08:23:10 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-24 08:23:10 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-24 08:23:10 DEBUG _windows.py:192: Thread started
+2024-09-24 08:23:10 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-e886cb1b-7a88-11ef-b8a6-74d83e4f44c0
+2024-09-24 08:33:09 INFO weather.py:156: Fetched new weather data at 2024-09-24 08:33:09.669715
+2024-09-24 08:33:10 INFO weather.py:156: Fetched new weather data at 2024-09-24 08:33:10.657749
+2024-09-24 08:43:09 INFO weather.py:156: Fetched new weather data at 2024-09-24 08:43:09.669297
+2024-09-24 08:43:10 INFO weather.py:156: Fetched new weather data at 2024-09-24 08:43:10.655376
+2024-09-24 08:45:40 INFO bar_manager.py:67: Screens updated. Re-initialising all bars.
+2024-09-24 08:45:42 INFO log.py:21: Yasb
+2024-09-24 08:45:43 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-24 08:45:46 INFO weather.py:156: Fetched new weather data at 2024-09-24 08:45:46.590247
+2024-09-24 08:45:46 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-24 08:45:47 INFO weather.py:156: Fetched new weather data at 2024-09-24 08:45:47.346524
+2024-09-24 08:45:47 INFO event_listener.py:52: Created named pipe yasb-112e93dc-7a8c-11ef-ba9f-74d83e4f44c0
+2024-09-24 08:45:47 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-112e93dc-7a8c-11ef-ba9f-74d83e4f44c0
+2024-09-24 08:45:47 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-24 08:45:47 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-24 08:45:47 DEBUG _windows.py:192: Thread started
+2024-09-24 08:45:47 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-112e93dc-7a8c-11ef-ba9f-74d83e4f44c0
+2024-09-24 08:55:46 INFO weather.py:156: Fetched new weather data at 2024-09-24 08:55:46.578485
+2024-09-24 08:55:47 INFO weather.py:156: Fetched new weather data at 2024-09-24 08:55:47.343434
+2024-09-24 09:05:46 INFO weather.py:156: Fetched new weather data at 2024-09-24 09:05:46.575806
+2024-09-24 09:05:47 INFO weather.py:156: Fetched new weather data at 2024-09-24 09:05:47.341413
+2024-09-24 09:15:46 INFO weather.py:156: Fetched new weather data at 2024-09-24 09:15:46.578560
+2024-09-24 09:15:47 INFO weather.py:156: Fetched new weather data at 2024-09-24 09:15:47.343259
+2024-09-24 09:25:46 INFO weather.py:156: Fetched new weather data at 2024-09-24 09:25:46.576104
+2024-09-24 09:25:47 INFO weather.py:156: Fetched new weather data at 2024-09-24 09:25:47.341022
+2024-09-24 09:35:46 INFO weather.py:156: Fetched new weather data at 2024-09-24 09:35:46.579837
+2024-09-24 09:35:47 INFO weather.py:156: Fetched new weather data at 2024-09-24 09:35:47.343068
+2024-09-24 09:45:46 INFO weather.py:156: Fetched new weather data at 2024-09-24 09:45:46.578945
+2024-09-24 09:45:47 INFO weather.py:156: Fetched new weather data at 2024-09-24 09:45:47.341863
+2024-09-24 09:55:46 INFO weather.py:156: Fetched new weather data at 2024-09-24 09:55:46.576583
+2024-09-24 09:55:47 INFO weather.py:156: Fetched new weather data at 2024-09-24 09:55:47.341400
+2024-09-24 10:05:46 INFO weather.py:156: Fetched new weather data at 2024-09-24 10:05:46.580545
+2024-09-24 10:05:47 INFO weather.py:156: Fetched new weather data at 2024-09-24 10:05:47.344276
+2024-09-24 10:15:46 INFO weather.py:156: Fetched new weather data at 2024-09-24 10:15:46.577985
+2024-09-24 10:15:47 INFO weather.py:156: Fetched new weather data at 2024-09-24 10:15:47.344292
+2024-09-24 10:25:46 INFO weather.py:156: Fetched new weather data at 2024-09-24 10:25:46.577956
+2024-09-24 10:25:47 INFO weather.py:156: Fetched new weather data at 2024-09-24 10:25:47.342808
+2024-09-24 10:35:46 INFO weather.py:156: Fetched new weather data at 2024-09-24 10:35:46.578027
+2024-09-24 10:35:47 INFO weather.py:156: Fetched new weather data at 2024-09-24 10:35:47.342989
+2024-09-24 10:45:46 INFO weather.py:156: Fetched new weather data at 2024-09-24 10:45:46.575379
+2024-09-24 10:45:47 INFO weather.py:156: Fetched new weather data at 2024-09-24 10:45:47.341989
+2024-09-24 10:55:46 INFO weather.py:156: Fetched new weather data at 2024-09-24 10:55:46.576218
+2024-09-24 10:55:47 INFO weather.py:156: Fetched new weather data at 2024-09-24 10:55:47.344507
+2024-09-24 11:05:46 INFO weather.py:156: Fetched new weather data at 2024-09-24 11:05:46.579161
+2024-09-24 11:05:47 INFO weather.py:156: Fetched new weather data at 2024-09-24 11:05:47.343855
+2024-09-24 11:15:46 INFO weather.py:156: Fetched new weather data at 2024-09-24 11:15:46.575775
+2024-09-24 11:15:47 INFO weather.py:156: Fetched new weather data at 2024-09-24 11:15:47.342097
+2024-09-24 11:25:46 INFO weather.py:156: Fetched new weather data at 2024-09-24 11:25:46.576353
+2024-09-24 11:25:47 INFO weather.py:156: Fetched new weather data at 2024-09-24 11:25:47.345806
+2024-09-24 11:35:46 INFO weather.py:156: Fetched new weather data at 2024-09-24 11:35:46.576339
+2024-09-24 11:35:47 INFO weather.py:156: Fetched new weather data at 2024-09-24 11:35:47.343607
+2024-09-24 11:45:46 INFO weather.py:156: Fetched new weather data at 2024-09-24 11:45:46.576074
+2024-09-24 11:45:47 INFO weather.py:156: Fetched new weather data at 2024-09-24 11:45:47.345507
+2024-09-24 11:55:46 INFO weather.py:156: Fetched new weather data at 2024-09-24 11:55:46.576585
+2024-09-24 11:55:47 INFO weather.py:156: Fetched new weather data at 2024-09-24 11:55:47.344505
+2024-09-24 11:59:09 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2024-09-24 11:59:09 INFO event_listener.py:93: Attempting to reconnect...
+2024-09-24 11:59:14 INFO event_listener.py:52: Created named pipe yasb-112e93dc-7a8c-11ef-ba9f-74d83e4f44c0
+2024-09-24 11:59:14 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-112e93dc-7a8c-11ef-ba9f-74d83e4f44c0
+2024-09-24 11:59:14 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2024-09-24 11:59:34 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-112e93dc-7a8c-11ef-ba9f-74d83e4f44c0
+2024-09-24 12:00:11 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2024-09-24 12:00:11 INFO event_listener.py:93: Attempting to reconnect...
+2024-09-24 12:00:16 INFO event_listener.py:52: Created named pipe yasb-112e93dc-7a8c-11ef-ba9f-74d83e4f44c0
+2024-09-24 12:00:16 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-112e93dc-7a8c-11ef-ba9f-74d83e4f44c0
+2024-09-24 12:00:17 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-112e93dc-7a8c-11ef-ba9f-74d83e4f44c0
+2024-09-24 12:00:25 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2024-09-24 12:00:25 INFO event_listener.py:93: Attempting to reconnect...
+2024-09-24 12:00:30 INFO event_listener.py:52: Created named pipe yasb-112e93dc-7a8c-11ef-ba9f-74d83e4f44c0
+2024-09-24 12:00:30 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-112e93dc-7a8c-11ef-ba9f-74d83e4f44c0
+2024-09-24 12:00:30 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-112e93dc-7a8c-11ef-ba9f-74d83e4f44c0
+2024-09-24 12:02:21 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2024-09-24 12:02:21 INFO event_listener.py:93: Attempting to reconnect...
+2024-09-24 12:02:26 INFO event_listener.py:52: Created named pipe yasb-112e93dc-7a8c-11ef-ba9f-74d83e4f44c0
+2024-09-24 12:02:26 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-112e93dc-7a8c-11ef-ba9f-74d83e4f44c0
+2024-09-24 12:02:26 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2024-09-24 12:03:47 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-112e93dc-7a8c-11ef-ba9f-74d83e4f44c0
+2024-09-24 12:05:46 INFO weather.py:156: Fetched new weather data at 2024-09-24 12:05:46.575926
+2024-09-24 12:05:47 INFO weather.py:156: Fetched new weather data at 2024-09-24 12:05:47.342974
+2024-09-24 12:15:46 INFO weather.py:156: Fetched new weather data at 2024-09-24 12:15:46.576545
+2024-09-24 12:15:47 INFO weather.py:156: Fetched new weather data at 2024-09-24 12:15:47.343348
+2024-09-24 12:25:46 INFO weather.py:156: Fetched new weather data at 2024-09-24 12:25:46.575721
+2024-09-24 12:25:47 INFO weather.py:156: Fetched new weather data at 2024-09-24 12:25:47.345675
+2024-09-24 12:31:39 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2024-09-24 12:31:39 INFO event_listener.py:93: Attempting to reconnect...
+2024-09-24 12:31:44 INFO event_listener.py:52: Created named pipe yasb-112e93dc-7a8c-11ef-ba9f-74d83e4f44c0
+2024-09-24 12:31:44 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-112e93dc-7a8c-11ef-ba9f-74d83e4f44c0
+2024-09-24 12:31:44 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-112e93dc-7a8c-11ef-ba9f-74d83e4f44c0
+2024-09-24 12:35:46 INFO weather.py:156: Fetched new weather data at 2024-09-24 12:35:46.576434
+2024-09-24 12:35:47 INFO weather.py:156: Fetched new weather data at 2024-09-24 12:35:47.341380
+2024-09-24 12:37:30 INFO log.py:21: Yasb
+2024-09-24 12:37:31 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-24 12:37:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 12:37:33.618783
+2024-09-24 12:37:33 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-24 12:37:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 12:37:34.580184
+2024-09-24 12:37:34 INFO event_listener.py:52: Created named pipe yasb-728f7db5-7aac-11ef-a10f-74d83e4f44c0
+2024-09-24 12:37:34 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-728f7db5-7aac-11ef-a10f-74d83e4f44c0
+2024-09-24 12:37:34 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-24 12:37:34 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-24 12:37:34 DEBUG _windows.py:192: Thread started
+2024-09-24 12:37:34 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-728f7db5-7aac-11ef-a10f-74d83e4f44c0
+2024-09-24 12:39:13 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-24 12:39:23 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-24 12:39:33 INFO bar_manager.py:48: Successfully loaded updated stylesheet and applied to all bars.
+2024-09-24 12:47:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 12:47:33.607292
+2024-09-24 12:47:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 12:47:34.575736
+2024-09-24 12:57:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 12:57:33.607668
+2024-09-24 12:57:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 12:57:34.576471
+2024-09-24 13:00:34 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2024-09-24 13:00:34 INFO event_listener.py:93: Attempting to reconnect...
+2024-09-24 13:00:39 INFO event_listener.py:52: Created named pipe yasb-728f7db5-7aac-11ef-a10f-74d83e4f44c0
+2024-09-24 13:00:39 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-728f7db5-7aac-11ef-a10f-74d83e4f44c0
+2024-09-24 13:00:39 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-728f7db5-7aac-11ef-a10f-74d83e4f44c0
+2024-09-24 13:00:55 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2024-09-24 13:00:55 INFO event_listener.py:93: Attempting to reconnect...
+2024-09-24 13:01:00 INFO event_listener.py:52: Created named pipe yasb-728f7db5-7aac-11ef-a10f-74d83e4f44c0
+2024-09-24 13:01:00 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-728f7db5-7aac-11ef-a10f-74d83e4f44c0
+2024-09-24 13:01:01 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-728f7db5-7aac-11ef-a10f-74d83e4f44c0
+2024-09-24 13:05:00 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2024-09-24 13:05:00 INFO event_listener.py:93: Attempting to reconnect...
+2024-09-24 13:05:05 INFO event_listener.py:52: Created named pipe yasb-728f7db5-7aac-11ef-a10f-74d83e4f44c0
+2024-09-24 13:05:05 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-728f7db5-7aac-11ef-a10f-74d83e4f44c0
+2024-09-24 13:05:05 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-728f7db5-7aac-11ef-a10f-74d83e4f44c0
+2024-09-24 13:07:11 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2024-09-24 13:07:11 INFO event_listener.py:93: Attempting to reconnect...
+2024-09-24 13:07:16 INFO event_listener.py:52: Created named pipe yasb-728f7db5-7aac-11ef-a10f-74d83e4f44c0
+2024-09-24 13:07:16 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-728f7db5-7aac-11ef-a10f-74d83e4f44c0
+2024-09-24 13:07:16 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2024-09-24 13:07:27 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-728f7db5-7aac-11ef-a10f-74d83e4f44c0
+2024-09-24 13:07:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 13:07:33.606874
+2024-09-24 13:07:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 13:07:34.576577
+2024-09-24 13:17:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 13:17:33.607750
+2024-09-24 13:17:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 13:17:34.576054
+2024-09-24 13:21:14 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2024-09-24 13:21:14 INFO event_listener.py:93: Attempting to reconnect...
+2024-09-24 13:21:19 INFO event_listener.py:52: Created named pipe yasb-728f7db5-7aac-11ef-a10f-74d83e4f44c0
+2024-09-24 13:21:19 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-728f7db5-7aac-11ef-a10f-74d83e4f44c0
+2024-09-24 13:21:19 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-728f7db5-7aac-11ef-a10f-74d83e4f44c0
+2024-09-24 13:24:15 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2024-09-24 13:24:15 INFO event_listener.py:93: Attempting to reconnect...
+2024-09-24 13:24:20 INFO event_listener.py:52: Created named pipe yasb-728f7db5-7aac-11ef-a10f-74d83e4f44c0
+2024-09-24 13:24:20 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-728f7db5-7aac-11ef-a10f-74d83e4f44c0
+2024-09-24 13:24:20 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-728f7db5-7aac-11ef-a10f-74d83e4f44c0
+2024-09-24 13:27:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 13:27:33.609230
+2024-09-24 13:27:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 13:27:34.580205
+2024-09-24 13:37:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 13:37:33.606989
+2024-09-24 13:37:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 13:37:34.576995
+2024-09-24 13:47:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 13:47:33.607852
+2024-09-24 13:47:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 13:47:34.578853
+2024-09-24 13:57:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 13:57:33.607640
+2024-09-24 13:57:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 13:57:34.580410
+2024-09-24 14:07:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 14:07:33.606998
+2024-09-24 14:07:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 14:07:34.575660
+2024-09-24 14:17:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 14:17:33.610898
+2024-09-24 14:17:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 14:17:34.576344
+2024-09-24 14:27:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 14:27:33.609127
+2024-09-24 14:27:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 14:27:34.578456
+2024-09-24 14:37:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 14:37:33.609323
+2024-09-24 14:37:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 14:37:34.577582
+2024-09-24 14:47:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 14:47:33.611005
+2024-09-24 14:47:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 14:47:34.576050
+2024-09-24 14:57:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 14:57:33.610129
+2024-09-24 14:57:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 14:57:34.576696
+2024-09-24 15:07:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 15:07:33.607477
+2024-09-24 15:07:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 15:07:34.575761
+2024-09-24 15:17:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 15:17:33.606846
+2024-09-24 15:17:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 15:17:34.577466
+2024-09-24 15:27:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 15:27:33.608372
+2024-09-24 15:27:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 15:27:34.575607
+2024-09-24 15:37:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 15:37:33.610119
+2024-09-24 15:37:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 15:37:34.579926
+2024-09-24 15:47:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 15:47:33.610053
+2024-09-24 15:47:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 15:47:34.579465
+2024-09-24 15:57:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 15:57:33.607876
+2024-09-24 15:57:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 15:57:34.579291
+2024-09-24 16:07:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 16:07:33.607265
+2024-09-24 16:07:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 16:07:34.575248
+2024-09-24 16:17:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 16:17:33.607596
+2024-09-24 16:17:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 16:17:34.577146
+2024-09-24 16:27:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 16:27:33.606498
+2024-09-24 16:27:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 16:27:34.576083
+2024-09-24 16:37:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 16:37:33.607040
+2024-09-24 16:37:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 16:37:34.578228
+2024-09-24 16:47:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 16:47:33.609977
+2024-09-24 16:47:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 16:47:34.575916
+2024-09-24 16:57:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 16:57:33.609253
+2024-09-24 16:57:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 16:57:34.577017
+2024-09-24 17:07:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 17:07:33.610520
+2024-09-24 17:07:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 17:07:34.579125
+2024-09-24 17:17:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 17:17:33.607814
+2024-09-24 17:17:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 17:17:34.577154
+2024-09-24 17:27:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 17:27:33.611295
+2024-09-24 17:27:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 17:27:34.577993
+2024-09-24 17:37:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 17:37:33.607395
+2024-09-24 17:37:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 17:37:34.576921
+2024-09-24 17:47:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 17:47:33.620285
+2024-09-24 17:47:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 17:47:34.590620
+2024-09-24 17:57:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 17:57:33.691300
+2024-09-24 17:57:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 17:57:34.661666
+2024-09-24 18:07:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 18:07:33.755537
+2024-09-24 18:07:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 18:07:34.721751
+2024-09-24 18:17:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 18:17:33.805428
+2024-09-24 18:17:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 18:17:34.773725
+2024-09-24 18:27:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 18:27:33.845889
+2024-09-24 18:27:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 18:27:34.815951
+2024-09-24 18:37:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 18:37:33.883414
+2024-09-24 18:37:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 18:37:34.851917
+2024-09-24 18:47:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 18:47:33.908367
+2024-09-24 18:47:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 18:47:34.877270
+2024-09-24 18:57:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 18:57:33.935668
+2024-09-24 18:57:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 18:57:34.903381
+2024-09-24 19:07:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 19:07:33.954720
+2024-09-24 19:07:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 19:07:34.921059
+2024-09-24 19:17:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 19:17:33.967575
+2024-09-24 19:17:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 19:17:34.936347
+2024-09-24 19:27:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 19:27:33.980869
+2024-09-24 19:27:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 19:27:34.950901
+2024-09-24 19:37:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 19:37:33.989709
+2024-09-24 19:37:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 19:37:34.962783
+2024-09-24 19:47:33 INFO weather.py:156: Fetched new weather data at 2024-09-24 19:47:33.999920
+2024-09-24 19:47:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 19:47:34.967760
+2024-09-24 19:57:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 19:57:34.008164
+2024-09-24 19:57:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 19:57:34.976876
+2024-09-24 20:07:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 20:07:34.013854
+2024-09-24 20:07:34 INFO weather.py:156: Fetched new weather data at 2024-09-24 20:07:34.982101
+2024-09-24 20:11:52 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2024-09-24 20:11:52 INFO event_listener.py:93: Attempting to reconnect...
+2024-09-24 20:11:57 INFO event_listener.py:52: Created named pipe yasb-728f7db5-7aac-11ef-a10f-74d83e4f44c0
+2024-09-24 20:11:57 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-728f7db5-7aac-11ef-a10f-74d83e4f44c0
+2024-09-25 08:35:01 INFO log.py:21: Yasb
+2024-09-25 08:35:02 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-25 08:35:07 INFO weather.py:156: Fetched new weather data at 2024-09-25 08:35:07.306732
+2024-09-25 08:35:07 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-25 08:35:08 INFO weather.py:156: Fetched new weather data at 2024-09-25 08:35:08.236141
+2024-09-25 08:35:08 INFO event_listener.py:52: Created named pipe yasb-bea5ebbe-7b53-11ef-8ca0-74d83e4f44c0
+2024-09-25 08:35:08 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-bea5ebbe-7b53-11ef-8ca0-74d83e4f44c0
+2024-09-25 08:35:08 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-25 08:35:08 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-25 08:35:08 DEBUG _windows.py:192: Thread started
+2024-09-25 08:35:08 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-bea5ebbe-7b53-11ef-8ca0-74d83e4f44c0
+2024-09-25 08:45:07 INFO weather.py:156: Fetched new weather data at 2024-09-25 08:45:07.296128
+2024-09-25 08:45:08 INFO weather.py:156: Fetched new weather data at 2024-09-25 08:45:08.233522
+2024-09-25 08:55:07 INFO weather.py:156: Fetched new weather data at 2024-09-25 08:55:07.295895
+2024-09-25 08:55:08 INFO weather.py:156: Fetched new weather data at 2024-09-25 08:55:08.235978
+2024-09-25 09:05:07 INFO weather.py:156: Fetched new weather data at 2024-09-25 09:05:07.295176
+2024-09-25 09:05:08 INFO weather.py:156: Fetched new weather data at 2024-09-25 09:05:08.236990
+2024-09-25 09:15:07 INFO weather.py:156: Fetched new weather data at 2024-09-25 09:15:07.297274
+2024-09-25 09:15:08 INFO weather.py:156: Fetched new weather data at 2024-09-25 09:15:08.233726
+2024-09-25 09:17:29 INFO bar_manager.py:67: Screens updated. Re-initialising all bars.
+2024-09-25 09:17:32 INFO log.py:21: Yasb
+2024-09-25 09:17:32 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-25 09:17:35 INFO weather.py:156: Fetched new weather data at 2024-09-25 09:17:35.292388
+2024-09-25 09:17:35 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-25 09:17:35 INFO weather.py:156: Fetched new weather data at 2024-09-25 09:17:35.891182
+2024-09-25 09:17:35 INFO event_listener.py:52: Created named pipe yasb-ad26f5a3-7b59-11ef-937c-74d83e4f44c0
+2024-09-25 09:17:35 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-ad26f5a3-7b59-11ef-937c-74d83e4f44c0
+2024-09-25 09:17:35 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-25 09:17:35 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-25 09:17:35 DEBUG _windows.py:192: Thread started
+2024-09-25 09:17:36 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-ad26f5a3-7b59-11ef-937c-74d83e4f44c0
+2024-09-25 09:27:35 INFO weather.py:156: Fetched new weather data at 2024-09-25 09:27:35.281520
+2024-09-25 09:27:35 INFO weather.py:156: Fetched new weather data at 2024-09-25 09:27:35.890806
+2024-09-25 09:37:35 INFO weather.py:156: Fetched new weather data at 2024-09-25 09:37:35.282731
+2024-09-25 09:37:35 INFO weather.py:156: Fetched new weather data at 2024-09-25 09:37:35.888511
+2024-09-25 09:47:35 INFO weather.py:156: Fetched new weather data at 2024-09-25 09:47:35.279379
+2024-09-25 09:47:35 INFO weather.py:156: Fetched new weather data at 2024-09-25 09:47:35.890259
+2024-09-25 09:48:03 INFO bar_manager.py:67: Screens updated. Re-initialising all bars.
+2024-09-25 09:48:04 INFO log.py:21: Yasb
+2024-09-25 09:48:04 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-25 09:48:04 INFO weather.py:156: Fetched new weather data at 2024-09-25 09:48:04.956140
+2024-09-25 09:48:04 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-25 09:48:05 INFO weather.py:156: Fetched new weather data at 2024-09-25 09:48:05.534897
+2024-09-25 09:48:05 INFO event_listener.py:52: Created named pipe yasb-efbccbcf-7b5d-11ef-9c29-74d83e4f44c0
+2024-09-25 09:48:05 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-efbccbcf-7b5d-11ef-9c29-74d83e4f44c0
+2024-09-25 09:48:05 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-25 09:48:05 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-25 09:48:05 DEBUG _windows.py:192: Thread started
+2024-09-25 09:48:05 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-efbccbcf-7b5d-11ef-9c29-74d83e4f44c0
+2024-09-25 09:51:23 INFO bar_manager.py:67: Screens updated. Re-initialising all bars.
+2024-09-25 09:51:24 INFO log.py:21: Yasb
+2024-09-25 09:51:24 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-25 09:51:25 INFO weather.py:156: Fetched new weather data at 2024-09-25 09:51:25.421398
+2024-09-25 09:51:25 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-25 09:51:26 INFO weather.py:156: Fetched new weather data at 2024-09-25 09:51:26.214374
+2024-09-25 09:51:26 INFO event_listener.py:52: Created named pipe yasb-675db585-7b5e-11ef-a6e2-74d83e4f44c0
+2024-09-25 09:51:26 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-675db585-7b5e-11ef-a6e2-74d83e4f44c0
+2024-09-25 09:51:26 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-25 09:51:26 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-25 09:51:26 DEBUG _windows.py:192: Thread started
+2024-09-25 09:51:26 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-675db585-7b5e-11ef-a6e2-74d83e4f44c0
+2024-09-25 09:57:03 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2024-09-25 09:57:03 INFO event_listener.py:93: Attempting to reconnect...
+2024-09-25 09:57:08 INFO event_listener.py:52: Created named pipe yasb-675db585-7b5e-11ef-a6e2-74d83e4f44c0
+2024-09-25 09:57:08 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-675db585-7b5e-11ef-a6e2-74d83e4f44c0
+2024-09-25 09:57:08 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-675db585-7b5e-11ef-a6e2-74d83e4f44c0
+2024-09-25 09:58:24 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2024-09-25 09:58:24 INFO event_listener.py:93: Attempting to reconnect...
+2024-09-25 09:58:29 INFO event_listener.py:52: Created named pipe yasb-675db585-7b5e-11ef-a6e2-74d83e4f44c0
+2024-09-25 09:58:29 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-675db585-7b5e-11ef-a6e2-74d83e4f44c0
+2024-09-25 09:58:29 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2024-09-25 09:58:39 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-675db585-7b5e-11ef-a6e2-74d83e4f44c0
+2024-09-25 10:01:25 INFO weather.py:156: Fetched new weather data at 2024-09-25 10:01:25.405629
+2024-09-25 10:01:26 INFO weather.py:156: Fetched new weather data at 2024-09-25 10:01:26.202460
+2024-09-25 10:11:25 INFO weather.py:156: Fetched new weather data at 2024-09-25 10:11:25.407105
+2024-09-25 10:11:26 INFO weather.py:156: Fetched new weather data at 2024-09-25 10:11:26.201316
+2024-09-25 10:21:25 INFO weather.py:156: Fetched new weather data at 2024-09-25 10:21:25.407995
+2024-09-25 10:21:26 INFO weather.py:156: Fetched new weather data at 2024-09-25 10:21:26.204076
+2024-09-25 10:31:25 INFO weather.py:156: Fetched new weather data at 2024-09-25 10:31:25.406159
+2024-09-25 10:31:26 INFO weather.py:156: Fetched new weather data at 2024-09-25 10:31:26.203081
+2024-09-25 10:41:25 INFO weather.py:156: Fetched new weather data at 2024-09-25 10:41:25.405082
+2024-09-25 10:41:26 INFO weather.py:156: Fetched new weather data at 2024-09-25 10:41:26.202306
+2024-09-25 10:51:25 INFO weather.py:156: Fetched new weather data at 2024-09-25 10:51:25.405818
+2024-09-25 10:51:26 INFO weather.py:156: Fetched new weather data at 2024-09-25 10:51:26.202291
+2024-09-25 11:01:25 INFO weather.py:156: Fetched new weather data at 2024-09-25 11:01:25.404012
+2024-09-25 11:01:26 INFO weather.py:156: Fetched new weather data at 2024-09-25 11:01:26.201968
+2024-09-25 11:11:25 INFO weather.py:156: Fetched new weather data at 2024-09-25 11:11:25.404055
+2024-09-25 11:11:26 INFO weather.py:156: Fetched new weather data at 2024-09-25 11:11:26.205318
+2024-09-25 11:21:25 INFO weather.py:156: Fetched new weather data at 2024-09-25 11:21:25.406030
+2024-09-25 11:21:26 INFO weather.py:156: Fetched new weather data at 2024-09-25 11:21:26.201546
+2024-09-25 11:31:25 INFO weather.py:156: Fetched new weather data at 2024-09-25 11:31:25.405854
+2024-09-25 11:31:26 INFO weather.py:156: Fetched new weather data at 2024-09-25 11:31:26.203577
+2024-09-25 11:41:25 INFO weather.py:156: Fetched new weather data at 2024-09-25 11:41:25.405683
+2024-09-25 11:41:26 INFO weather.py:156: Fetched new weather data at 2024-09-25 11:41:26.204489
+2024-09-25 11:51:25 INFO weather.py:156: Fetched new weather data at 2024-09-25 11:51:25.405484
+2024-09-25 11:51:26 INFO weather.py:156: Fetched new weather data at 2024-09-25 11:51:26.202910
+2024-09-25 12:01:25 INFO weather.py:156: Fetched new weather data at 2024-09-25 12:01:25.405827
+2024-09-25 12:01:26 INFO weather.py:156: Fetched new weather data at 2024-09-25 12:01:26.202734
+2024-09-25 12:11:25 INFO weather.py:156: Fetched new weather data at 2024-09-25 12:11:25.406376
+2024-09-25 12:11:26 INFO weather.py:156: Fetched new weather data at 2024-09-25 12:11:26.201692
+2024-09-25 12:21:25 INFO weather.py:156: Fetched new weather data at 2024-09-25 12:21:25.404564
+2024-09-25 12:21:26 INFO weather.py:156: Fetched new weather data at 2024-09-25 12:21:26.204519
+2024-09-25 12:31:25 INFO weather.py:156: Fetched new weather data at 2024-09-25 12:31:25.405440
+2024-09-25 12:31:26 INFO weather.py:156: Fetched new weather data at 2024-09-25 12:31:26.201398
+2024-09-25 12:41:25 INFO weather.py:156: Fetched new weather data at 2024-09-25 12:41:25.406721
+2024-09-25 12:41:26 INFO weather.py:156: Fetched new weather data at 2024-09-25 12:41:26.203342
+2024-09-25 12:51:25 INFO weather.py:156: Fetched new weather data at 2024-09-25 12:51:25.404522
+2024-09-25 12:51:26 INFO weather.py:156: Fetched new weather data at 2024-09-25 12:51:26.202658
+2024-09-25 13:01:25 INFO weather.py:156: Fetched new weather data at 2024-09-25 13:01:25.404539
+2024-09-25 13:01:26 INFO weather.py:156: Fetched new weather data at 2024-09-25 13:01:26.204810
+2024-09-25 13:11:25 INFO weather.py:156: Fetched new weather data at 2024-09-25 13:11:25.407323
+2024-09-25 13:11:26 INFO weather.py:156: Fetched new weather data at 2024-09-25 13:11:26.201044
+2024-09-25 13:21:25 INFO weather.py:156: Fetched new weather data at 2024-09-25 13:21:25.404129
+2024-09-25 13:21:26 INFO weather.py:156: Fetched new weather data at 2024-09-25 13:21:26.202415
+2024-09-25 13:31:25 INFO weather.py:156: Fetched new weather data at 2024-09-25 13:31:25.405196
+2024-09-25 13:31:26 INFO weather.py:156: Fetched new weather data at 2024-09-25 13:31:26.204643
+2024-09-25 13:33:29 INFO bar_manager.py:67: Screens updated. Re-initialising all bars.
+2024-09-25 13:33:29 INFO log.py:21: Yasb
+2024-09-25 13:33:30 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-25 13:33:30 INFO weather.py:156: Fetched new weather data at 2024-09-25 13:33:30.257037
+2024-09-25 13:33:30 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-25 13:33:30 INFO weather.py:156: Fetched new weather data at 2024-09-25 13:33:30.683369
+2024-09-25 13:33:30 INFO event_listener.py:52: Created named pipe yasb-6d5276fa-7b7d-11ef-8e63-74d83e4f44c0
+2024-09-25 13:33:30 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-6d5276fa-7b7d-11ef-8e63-74d83e4f44c0
+2024-09-25 13:33:30 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-25 13:33:30 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-25 13:33:30 DEBUG _windows.py:192: Thread started
+2024-09-25 13:33:30 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-6d5276fa-7b7d-11ef-8e63-74d83e4f44c0
+2024-09-25 13:43:30 INFO weather.py:156: Fetched new weather data at 2024-09-25 13:43:30.252022
+2024-09-25 13:43:30 INFO weather.py:156: Fetched new weather data at 2024-09-25 13:43:30.670516
+2024-09-25 13:50:12 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2024-09-25 13:50:12 INFO event_listener.py:93: Attempting to reconnect...
+2024-09-25 13:50:17 INFO event_listener.py:52: Created named pipe yasb-6d5276fa-7b7d-11ef-8e63-74d83e4f44c0
+2024-09-25 13:50:17 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-6d5276fa-7b7d-11ef-8e63-74d83e4f44c0
+2024-09-25 13:50:17 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2024-09-25 13:50:27 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-6d5276fa-7b7d-11ef-8e63-74d83e4f44c0
+2024-09-25 13:52:30 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2024-09-25 13:52:30 INFO event_listener.py:93: Attempting to reconnect...
+2024-09-25 13:52:35 INFO event_listener.py:52: Created named pipe yasb-6d5276fa-7b7d-11ef-8e63-74d83e4f44c0
+2024-09-25 13:52:35 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-6d5276fa-7b7d-11ef-8e63-74d83e4f44c0
+2024-09-25 13:52:35 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-6d5276fa-7b7d-11ef-8e63-74d83e4f44c0
+2024-09-25 13:53:30 INFO weather.py:156: Fetched new weather data at 2024-09-25 13:53:30.249388
+2024-09-25 13:53:30 INFO weather.py:156: Fetched new weather data at 2024-09-25 13:53:30.672945
+2024-09-25 13:55:42 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2024-09-25 13:55:42 INFO event_listener.py:93: Attempting to reconnect...
+2024-09-25 13:55:47 INFO event_listener.py:52: Created named pipe yasb-6d5276fa-7b7d-11ef-8e63-74d83e4f44c0
+2024-09-25 13:55:47 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-6d5276fa-7b7d-11ef-8e63-74d83e4f44c0
+2024-09-25 13:55:47 WARNING event_listener.py:111: Komorebi failed to subscribe named pipe. Waiting for subscription...
+2024-09-25 13:55:57 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-6d5276fa-7b7d-11ef-8e63-74d83e4f44c0
+2024-09-25 14:03:30 INFO weather.py:156: Fetched new weather data at 2024-09-25 14:03:30.249078
+2024-09-25 14:03:30 INFO weather.py:156: Fetched new weather data at 2024-09-25 14:03:30.671448
+2024-09-25 14:13:30 INFO weather.py:156: Fetched new weather data at 2024-09-25 14:13:30.247798
+2024-09-25 14:13:30 INFO weather.py:156: Fetched new weather data at 2024-09-25 14:13:30.674000
+2024-09-25 14:23:30 INFO weather.py:156: Fetched new weather data at 2024-09-25 14:23:30.250790
+2024-09-25 14:23:30 INFO weather.py:156: Fetched new weather data at 2024-09-25 14:23:30.669720
+2024-09-25 14:33:30 INFO weather.py:156: Fetched new weather data at 2024-09-25 14:33:30.250387
+2024-09-25 14:33:30 INFO weather.py:156: Fetched new weather data at 2024-09-25 14:33:30.673480
+2024-09-25 14:43:30 INFO weather.py:156: Fetched new weather data at 2024-09-25 14:43:30.252378
+2024-09-25 14:43:30 INFO weather.py:156: Fetched new weather data at 2024-09-25 14:43:30.670896
+2024-09-25 14:53:30 INFO weather.py:156: Fetched new weather data at 2024-09-25 14:53:30.247800
+2024-09-25 14:53:30 INFO weather.py:156: Fetched new weather data at 2024-09-25 14:53:30.672787
+2024-09-25 15:03:30 INFO weather.py:156: Fetched new weather data at 2024-09-25 15:03:30.250865
+2024-09-25 15:03:30 INFO weather.py:156: Fetched new weather data at 2024-09-25 15:03:30.670785
+2024-09-25 15:13:30 INFO weather.py:156: Fetched new weather data at 2024-09-25 15:13:30.248695
+2024-09-25 15:13:30 INFO weather.py:156: Fetched new weather data at 2024-09-25 15:13:30.670225
+2024-09-25 15:19:20 INFO bar_manager.py:67: Screens updated. Re-initialising all bars.
+2024-09-25 15:19:20 INFO log.py:21: Yasb
+2024-09-25 15:19:20 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-25 15:19:20 INFO weather.py:156: Fetched new weather data at 2024-09-25 15:19:20.971284
+2024-09-25 15:19:21 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-25 15:19:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 15:19:21.644077
+2024-09-25 15:19:21 INFO event_listener.py:52: Created named pipe yasb-36d37ce8-7b8c-11ef-82e8-74d83e4f44c0
+2024-09-25 15:19:21 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-36d37ce8-7b8c-11ef-82e8-74d83e4f44c0
+2024-09-25 15:19:21 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-25 15:19:21 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-25 15:19:21 DEBUG _windows.py:192: Thread started
+2024-09-25 15:19:21 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-36d37ce8-7b8c-11ef-82e8-74d83e4f44c0
+2024-09-25 15:29:20 INFO weather.py:156: Fetched new weather data at 2024-09-25 15:29:20.968408
+2024-09-25 15:29:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 15:29:21.641691
+2024-09-25 15:39:20 INFO weather.py:156: Fetched new weather data at 2024-09-25 15:39:20.968997
+2024-09-25 15:39:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 15:39:21.639316
+2024-09-25 15:41:56 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2024-09-25 15:41:56 INFO event_listener.py:93: Attempting to reconnect...
+2024-09-25 15:42:01 INFO event_listener.py:52: Created named pipe yasb-36d37ce8-7b8c-11ef-82e8-74d83e4f44c0
+2024-09-25 15:42:01 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-36d37ce8-7b8c-11ef-82e8-74d83e4f44c0
+2024-09-25 15:42:01 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-36d37ce8-7b8c-11ef-82e8-74d83e4f44c0
+2024-09-25 15:43:17 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2024-09-25 15:43:17 INFO event_listener.py:93: Attempting to reconnect...
+2024-09-25 15:43:22 INFO event_listener.py:52: Created named pipe yasb-36d37ce8-7b8c-11ef-82e8-74d83e4f44c0
+2024-09-25 15:43:22 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-36d37ce8-7b8c-11ef-82e8-74d83e4f44c0
+2024-09-25 15:43:22 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-36d37ce8-7b8c-11ef-82e8-74d83e4f44c0
+2024-09-25 15:49:20 INFO weather.py:156: Fetched new weather data at 2024-09-25 15:49:20.970902
+2024-09-25 15:49:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 15:49:21.639666
+2024-09-25 15:59:20 INFO weather.py:156: Fetched new weather data at 2024-09-25 15:59:20.970503
+2024-09-25 15:59:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 15:59:21.638272
+2024-09-25 16:09:20 INFO weather.py:156: Fetched new weather data at 2024-09-25 16:09:20.968587
+2024-09-25 16:09:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 16:09:21.641138
+2024-09-25 16:19:20 INFO weather.py:156: Fetched new weather data at 2024-09-25 16:19:20.969992
+2024-09-25 16:19:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 16:19:21.638654
+2024-09-25 16:29:20 INFO weather.py:156: Fetched new weather data at 2024-09-25 16:29:20.968690
+2024-09-25 16:29:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 16:29:21.642193
+2024-09-25 16:39:20 INFO weather.py:156: Fetched new weather data at 2024-09-25 16:39:20.969397
+2024-09-25 16:39:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 16:39:21.639912
+2024-09-25 16:49:20 INFO weather.py:156: Fetched new weather data at 2024-09-25 16:49:20.966823
+2024-09-25 16:49:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 16:49:21.640048
+2024-09-25 16:59:20 INFO weather.py:156: Fetched new weather data at 2024-09-25 16:59:20.969937
+2024-09-25 16:59:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 16:59:21.641011
+2024-09-25 17:09:20 INFO weather.py:156: Fetched new weather data at 2024-09-25 17:09:20.968637
+2024-09-25 17:09:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 17:09:21.638864
+2024-09-25 17:19:20 INFO weather.py:156: Fetched new weather data at 2024-09-25 17:19:20.970178
+2024-09-25 17:19:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 17:19:21.640594
+2024-09-25 17:29:20 INFO weather.py:156: Fetched new weather data at 2024-09-25 17:29:20.968782
+2024-09-25 17:29:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 17:29:21.640459
+2024-09-25 17:39:20 INFO weather.py:156: Fetched new weather data at 2024-09-25 17:39:20.967202
+2024-09-25 17:39:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 17:39:21.641136
+2024-09-25 17:49:20 INFO weather.py:156: Fetched new weather data at 2024-09-25 17:49:20.968328
+2024-09-25 17:49:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 17:49:21.640679
+2024-09-25 17:59:20 INFO weather.py:156: Fetched new weather data at 2024-09-25 17:59:20.970039
+2024-09-25 17:59:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 17:59:21.642253
+2024-09-25 18:09:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 18:09:21.042929
+2024-09-25 18:09:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 18:09:21.715613
+2024-09-25 18:19:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 18:19:21.115418
+2024-09-25 18:19:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 18:19:21.788984
+2024-09-25 18:29:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 18:29:21.169612
+2024-09-25 18:29:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 18:29:21.842039
+2024-09-25 18:39:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 18:39:21.219442
+2024-09-25 18:39:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 18:39:21.891065
+2024-09-25 18:49:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 18:49:21.257372
+2024-09-25 18:49:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 18:49:21.928565
+2024-09-25 18:59:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 18:59:21.285486
+2024-09-25 18:59:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 18:59:21.960573
+2024-09-25 19:09:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 19:09:21.314894
+2024-09-25 19:09:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 19:09:21.986290
+2024-09-25 19:19:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 19:19:21.332813
+2024-09-25 19:19:22 INFO weather.py:156: Fetched new weather data at 2024-09-25 19:19:22.006171
+2024-09-25 19:29:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 19:29:21.351634
+2024-09-25 19:29:22 INFO weather.py:156: Fetched new weather data at 2024-09-25 19:29:22.025549
+2024-09-25 19:39:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 19:39:21.367858
+2024-09-25 19:39:22 INFO weather.py:156: Fetched new weather data at 2024-09-25 19:39:22.037990
+2024-09-25 19:49:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 19:49:21.376580
+2024-09-25 19:49:22 INFO weather.py:156: Fetched new weather data at 2024-09-25 19:49:22.049101
+2024-09-25 19:59:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 19:59:21.388983
+2024-09-25 19:59:22 INFO weather.py:156: Fetched new weather data at 2024-09-25 19:59:22.059342
+2024-09-25 20:09:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 20:09:21.396098
+2024-09-25 20:09:22 INFO weather.py:156: Fetched new weather data at 2024-09-25 20:09:22.065865
+2024-09-25 20:19:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 20:19:21.404283
+2024-09-25 20:19:22 INFO weather.py:156: Fetched new weather data at 2024-09-25 20:19:22.076499
+2024-09-25 20:29:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 20:29:21.407066
+2024-09-25 20:29:22 INFO weather.py:156: Fetched new weather data at 2024-09-25 20:29:22.080573
+2024-09-25 20:39:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 20:39:21.410385
+2024-09-25 20:39:22 INFO weather.py:156: Fetched new weather data at 2024-09-25 20:39:22.085460
+2024-09-25 20:49:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 20:49:21.416636
+2024-09-25 20:49:22 INFO weather.py:156: Fetched new weather data at 2024-09-25 20:49:22.089488
+2024-09-25 20:59:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 20:59:21.418031
+2024-09-25 20:59:22 INFO weather.py:156: Fetched new weather data at 2024-09-25 20:59:22.091011
+2024-09-25 21:09:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 21:09:21.421604
+2024-09-25 21:09:22 INFO weather.py:156: Fetched new weather data at 2024-09-25 21:09:22.092613
+2024-09-25 21:19:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 21:19:21.421914
+2024-09-25 21:19:22 INFO weather.py:156: Fetched new weather data at 2024-09-25 21:19:22.093479
+2024-09-25 21:29:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 21:29:21.425487
+2024-09-25 21:29:22 INFO weather.py:156: Fetched new weather data at 2024-09-25 21:29:22.097924
+2024-09-25 21:39:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 21:39:21.427851
+2024-09-25 21:39:22 INFO weather.py:156: Fetched new weather data at 2024-09-25 21:39:22.099726
+2024-09-25 21:49:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 21:49:21.426852
+2024-09-25 21:49:22 INFO weather.py:156: Fetched new weather data at 2024-09-25 21:49:22.099031
+2024-09-25 21:59:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 21:59:21.427285
+2024-09-25 21:59:22 INFO weather.py:156: Fetched new weather data at 2024-09-25 21:59:22.100938
+2024-09-25 22:09:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 22:09:21.429342
+2024-09-25 22:09:22 INFO weather.py:156: Fetched new weather data at 2024-09-25 22:09:22.103385
+2024-09-25 22:19:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 22:19:21.430879
+2024-09-25 22:19:22 INFO weather.py:156: Fetched new weather data at 2024-09-25 22:19:22.101919
+2024-09-25 22:29:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 22:29:21.430168
+2024-09-25 22:29:22 INFO weather.py:156: Fetched new weather data at 2024-09-25 22:29:22.103112
+2024-09-25 22:39:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 22:39:21.430585
+2024-09-25 22:39:22 INFO weather.py:156: Fetched new weather data at 2024-09-25 22:39:22.106247
+2024-09-25 22:49:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 22:49:21.429683
+2024-09-25 22:49:22 INFO weather.py:156: Fetched new weather data at 2024-09-25 22:49:22.102920
+2024-09-25 22:59:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 22:59:21.430266
+2024-09-25 22:59:22 INFO weather.py:156: Fetched new weather data at 2024-09-25 22:59:22.105785
+2024-09-25 23:09:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 23:09:21.430164
+2024-09-25 23:09:22 INFO weather.py:156: Fetched new weather data at 2024-09-25 23:09:22.104282
+2024-09-25 23:19:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 23:19:21.432952
+2024-09-25 23:19:22 INFO weather.py:156: Fetched new weather data at 2024-09-25 23:19:22.102262
+2024-09-25 23:29:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 23:29:21.431297
+2024-09-25 23:29:22 INFO weather.py:156: Fetched new weather data at 2024-09-25 23:29:22.101891
+2024-09-25 23:39:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 23:39:21.434381
+2024-09-25 23:39:22 INFO weather.py:156: Fetched new weather data at 2024-09-25 23:39:22.105127
+2024-09-25 23:49:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 23:49:21.434306
+2024-09-25 23:49:22 INFO weather.py:156: Fetched new weather data at 2024-09-25 23:49:22.106321
+2024-09-25 23:59:21 INFO weather.py:156: Fetched new weather data at 2024-09-25 23:59:21.433492
+2024-09-25 23:59:22 INFO weather.py:156: Fetched new weather data at 2024-09-25 23:59:22.103177
+2024-09-26 00:09:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 00:09:21.430457
+2024-09-26 00:09:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 00:09:22.102242
+2024-09-26 00:19:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 00:19:21.431423
+2024-09-26 00:19:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 00:19:22.105739
+2024-09-26 00:29:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 00:29:21.432011
+2024-09-26 00:29:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 00:29:22.102748
+2024-09-26 00:39:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 00:39:21.434685
+2024-09-26 00:39:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 00:39:22.106040
+2024-09-26 00:49:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 00:49:21.433532
+2024-09-26 00:49:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 00:49:22.102725
+2024-09-26 00:59:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 00:59:21.432671
+2024-09-26 00:59:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 00:59:22.103744
+2024-09-26 01:09:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 01:09:21.433750
+2024-09-26 01:09:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 01:09:22.103427
+2024-09-26 01:19:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 01:19:21.434444
+2024-09-26 01:19:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 01:19:22.104843
+2024-09-26 01:29:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 01:29:21.434192
+2024-09-26 01:29:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 01:29:22.104283
+2024-09-26 01:39:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 01:39:21.433862
+2024-09-26 01:39:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 01:39:22.103726
+2024-09-26 01:49:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 01:49:21.432039
+2024-09-26 01:49:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 01:49:22.106474
+2024-09-26 01:59:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 01:59:21.432395
+2024-09-26 01:59:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 01:59:22.103709
+2024-09-26 02:09:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 02:09:21.430846
+2024-09-26 02:09:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 02:09:22.103560
+2024-09-26 02:19:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 02:19:21.431311
+2024-09-26 02:19:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 02:19:22.106020
+2024-09-26 02:29:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 02:29:21.431563
+2024-09-26 02:29:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 02:29:22.105326
+2024-09-26 02:39:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 02:39:21.431087
+2024-09-26 02:39:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 02:39:22.106792
+2024-09-26 02:49:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 02:49:21.431305
+2024-09-26 02:49:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 02:49:22.104055
+2024-09-26 02:59:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 02:59:21.431328
+2024-09-26 02:59:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 02:59:22.103187
+2024-09-26 03:09:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 03:09:21.431531
+2024-09-26 03:09:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 03:09:22.105891
+2024-09-26 03:19:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 03:19:21.435200
+2024-09-26 03:19:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 03:19:22.103524
+2024-09-26 03:29:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 03:29:21.432994
+2024-09-26 03:29:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 03:29:22.104752
+2024-09-26 03:39:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 03:39:21.433393
+2024-09-26 03:39:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 03:39:22.103507
+2024-09-26 03:49:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 03:49:21.433809
+2024-09-26 03:49:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 03:49:22.106457
+2024-09-26 03:59:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 03:59:21.433487
+2024-09-26 03:59:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 03:59:22.105447
+2024-09-26 04:09:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 04:09:21.432134
+2024-09-26 04:09:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 04:09:22.102250
+2024-09-26 04:19:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 04:19:21.432300
+2024-09-26 04:19:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 04:19:22.104678
+2024-09-26 04:29:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 04:29:21.433494
+2024-09-26 04:29:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 04:29:22.104000
+2024-09-26 04:39:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 04:39:21.432241
+2024-09-26 04:39:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 04:39:22.102807
+2024-09-26 04:49:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 04:49:21.433960
+2024-09-26 04:49:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 04:49:22.103273
+2024-09-26 04:59:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 04:59:21.432125
+2024-09-26 04:59:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 04:59:22.102108
+2024-09-26 05:09:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 05:09:21.430821
+2024-09-26 05:09:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 05:09:22.105243
+2024-09-26 05:19:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 05:19:21.432485
+2024-09-26 05:19:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 05:19:22.104639
+2024-09-26 05:29:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 05:29:21.431836
+2024-09-26 05:29:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 05:29:22.104163
+2024-09-26 05:39:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 05:39:21.434133
+2024-09-26 05:39:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 05:39:22.102678
+2024-09-26 05:49:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 05:49:21.432002
+2024-09-26 05:49:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 05:49:22.106062
+2024-09-26 05:59:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 05:59:21.430806
+2024-09-26 05:59:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 05:59:22.102497
+2024-09-26 06:09:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 06:09:21.434030
+2024-09-26 06:09:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 06:09:22.102603
+2024-09-26 06:19:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 06:19:21.430993
+2024-09-26 06:19:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 06:19:22.106446
+2024-09-26 06:29:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 06:29:21.432843
+2024-09-26 06:29:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 06:29:22.104934
+2024-09-26 06:39:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 06:39:21.430516
+2024-09-26 06:39:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 06:39:22.106290
+2024-09-26 06:49:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 06:49:21.431874
+2024-09-26 06:49:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 06:49:22.106478
+2024-09-26 06:59:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 06:59:21.431755
+2024-09-26 06:59:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 06:59:22.102555
+2024-09-26 07:09:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 07:09:21.430709
+2024-09-26 07:09:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 07:09:22.102101
+2024-09-26 07:19:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 07:19:21.433917
+2024-09-26 07:19:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 07:19:22.104285
+2024-09-26 07:29:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 07:29:21.431182
+2024-09-26 07:29:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 07:29:22.102072
+2024-09-26 07:39:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 07:39:21.431209
+2024-09-26 07:39:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 07:39:22.106116
+2024-09-26 07:49:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 07:49:21.433975
+2024-09-26 07:49:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 07:49:22.104531
+2024-09-26 07:59:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 07:59:21.433463
+2024-09-26 07:59:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 07:59:22.103465
+2024-09-26 08:09:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 08:09:21.434097
+2024-09-26 08:09:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 08:09:22.105818
+2024-09-26 08:19:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 08:19:21.432771
+2024-09-26 08:19:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 08:19:22.103848
+2024-09-26 08:29:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 08:29:21.430997
+2024-09-26 08:29:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 08:29:22.106591
+2024-09-26 08:39:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 08:39:21.430779
+2024-09-26 08:39:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 08:39:22.102379
+2024-09-26 08:49:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 08:49:21.432217
+2024-09-26 08:49:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 08:49:22.103395
+2024-09-26 08:59:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 08:59:21.435043
+2024-09-26 08:59:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 08:59:22.105283
+2024-09-26 09:09:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 09:09:21.432232
+2024-09-26 09:09:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 09:09:22.103296
+2024-09-26 09:19:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 09:19:21.433009
+2024-09-26 09:19:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 09:19:22.104214
+2024-09-26 09:29:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 09:29:21.431779
+2024-09-26 09:29:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 09:29:22.103892
+2024-09-26 09:39:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 09:39:21.430667
+2024-09-26 09:39:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 09:39:22.103122
+2024-09-26 09:46:16 INFO bar_manager.py:67: Screens updated. Re-initialising all bars.
+2024-09-26 09:46:18 INFO log.py:21: Yasb
+2024-09-26 09:46:19 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-26 09:46:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 09:46:22.298300
+2024-09-26 09:46:22 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-26 09:46:23 INFO weather.py:156: Fetched new weather data at 2024-09-26 09:46:23.185309
+2024-09-26 09:46:23 INFO event_listener.py:52: Created named pipe yasb-dd2901a0-7c26-11ef-8654-74d83e4f44c0
+2024-09-26 09:46:23 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-dd2901a0-7c26-11ef-8654-74d83e4f44c0
+2024-09-26 09:46:23 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-26 09:46:23 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-26 09:46:23 DEBUG _windows.py:192: Thread started
+2024-09-26 09:46:23 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-dd2901a0-7c26-11ef-8654-74d83e4f44c0
+2024-09-26 09:56:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 09:56:22.470193
+2024-09-26 09:56:23 INFO weather.py:156: Fetched new weather data at 2024-09-26 09:56:23.183810
+2024-09-26 10:06:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 10:06:22.291650
+2024-09-26 10:06:23 INFO weather.py:156: Fetched new weather data at 2024-09-26 10:06:23.180994
+2024-09-26 10:16:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 10:16:22.291068
+2024-09-26 10:16:23 INFO weather.py:156: Fetched new weather data at 2024-09-26 10:16:23.181365
+2024-09-26 10:26:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 10:26:22.289629
+2024-09-26 10:26:23 INFO weather.py:156: Fetched new weather data at 2024-09-26 10:26:23.184068
+2024-09-26 10:36:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 10:36:22.289689
+2024-09-26 10:36:23 INFO weather.py:156: Fetched new weather data at 2024-09-26 10:36:23.183180
+2024-09-26 10:38:54 INFO bar_manager.py:67: Screens updated. Re-initialising all bars.
+2024-09-26 10:38:56 INFO log.py:21: Yasb
+2024-09-26 10:38:57 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-26 10:39:00 INFO weather.py:156: Fetched new weather data at 2024-09-26 10:39:00.494149
+2024-09-26 10:39:00 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-26 10:39:01 INFO weather.py:156: Fetched new weather data at 2024-09-26 10:39:01.250099
+2024-09-26 10:39:01 INFO event_listener.py:52: Created named pipe yasb-3784680f-7c2e-11ef-90be-74d83e4f44c0
+2024-09-26 10:39:01 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-3784680f-7c2e-11ef-90be-74d83e4f44c0
+2024-09-26 10:39:01 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-26 10:39:01 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-26 10:39:01 DEBUG _windows.py:192: Thread started
+2024-09-26 10:39:01 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-3784680f-7c2e-11ef-90be-74d83e4f44c0
+2024-09-26 10:49:00 INFO weather.py:156: Fetched new weather data at 2024-09-26 10:49:00.495586
+2024-09-26 10:49:01 INFO weather.py:156: Fetched new weather data at 2024-09-26 10:49:01.244129
+2024-09-26 10:57:56 INFO bar_manager.py:67: Screens updated. Re-initialising all bars.
+2024-09-26 10:57:57 INFO log.py:21: Yasb
+2024-09-26 10:57:57 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-26 10:57:57 INFO weather.py:156: Fetched new weather data at 2024-09-26 10:57:57.889206
+2024-09-26 10:57:57 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-26 10:57:58 INFO weather.py:156: Fetched new weather data at 2024-09-26 10:57:58.557904
+2024-09-26 10:57:58 INFO event_listener.py:52: Created named pipe yasb-dd65fe41-7c30-11ef-9c47-74d83e4f44c0
+2024-09-26 10:57:58 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-dd65fe41-7c30-11ef-9c47-74d83e4f44c0
+2024-09-26 10:57:58 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-26 10:57:58 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-26 10:57:58 DEBUG _windows.py:192: Thread started
+2024-09-26 10:57:58 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-dd65fe41-7c30-11ef-9c47-74d83e4f44c0
+2024-09-26 11:07:57 INFO weather.py:156: Fetched new weather data at 2024-09-26 11:07:57.883499
+2024-09-26 11:07:58 INFO weather.py:156: Fetched new weather data at 2024-09-26 11:07:58.555890
+2024-09-26 11:10:12 INFO bar_manager.py:67: Screens updated. Re-initialising all bars.
+2024-09-26 11:10:13 INFO log.py:21: Yasb
+2024-09-26 11:10:13 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-26 11:10:14 INFO weather.py:156: Fetched new weather data at 2024-09-26 11:10:14.177628
+2024-09-26 11:10:14 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-26 11:10:14 INFO weather.py:156: Fetched new weather data at 2024-09-26 11:10:14.837961
+2024-09-26 11:10:15 INFO event_listener.py:52: Created named pipe yasb-944e19aa-7c32-11ef-a2f0-74d83e4f44c0
+2024-09-26 11:10:15 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-944e19aa-7c32-11ef-a2f0-74d83e4f44c0
+2024-09-26 11:10:15 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-26 11:10:15 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-26 11:10:15 DEBUG _windows.py:192: Thread started
+2024-09-26 11:10:15 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-944e19aa-7c32-11ef-a2f0-74d83e4f44c0
+2024-09-26 11:20:14 INFO weather.py:156: Fetched new weather data at 2024-09-26 11:20:14.167681
+2024-09-26 11:20:14 INFO weather.py:156: Fetched new weather data at 2024-09-26 11:20:14.836523
+2024-09-26 11:30:14 INFO weather.py:156: Fetched new weather data at 2024-09-26 11:30:14.165870
+2024-09-26 11:30:14 INFO weather.py:156: Fetched new weather data at 2024-09-26 11:30:14.838376
+2024-09-26 11:40:14 INFO weather.py:156: Fetched new weather data at 2024-09-26 11:40:14.165616
+2024-09-26 11:40:14 INFO weather.py:156: Fetched new weather data at 2024-09-26 11:40:14.836372
+2024-09-26 11:50:14 INFO weather.py:156: Fetched new weather data at 2024-09-26 11:50:14.166157
+2024-09-26 11:50:14 INFO weather.py:156: Fetched new weather data at 2024-09-26 11:50:14.837934
+2024-09-26 11:51:04 INFO bar_manager.py:67: Screens updated. Re-initialising all bars.
+2024-09-26 11:51:05 INFO log.py:21: Yasb
+2024-09-26 11:51:05 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-26 11:51:05 INFO weather.py:156: Fetched new weather data at 2024-09-26 11:51:05.671535
+2024-09-26 11:51:05 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-26 11:51:06 INFO weather.py:156: Fetched new weather data at 2024-09-26 11:51:06.330418
+2024-09-26 11:51:06 INFO event_listener.py:52: Created named pipe yasb-496b4608-7c38-11ef-b85e-74d83e4f44c0
+2024-09-26 11:51:06 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-496b4608-7c38-11ef-b85e-74d83e4f44c0
+2024-09-26 11:51:06 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-26 11:51:06 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-26 11:51:06 DEBUG _windows.py:192: Thread started
+2024-09-26 11:51:06 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-496b4608-7c38-11ef-b85e-74d83e4f44c0
+2024-09-26 12:01:05 INFO weather.py:156: Fetched new weather data at 2024-09-26 12:01:05.666099
+2024-09-26 12:01:06 INFO weather.py:156: Fetched new weather data at 2024-09-26 12:01:06.323882
+2024-09-26 12:11:05 INFO weather.py:156: Fetched new weather data at 2024-09-26 12:11:05.662543
+2024-09-26 12:11:06 INFO weather.py:156: Fetched new weather data at 2024-09-26 12:11:06.318366
+2024-09-26 12:21:05 INFO weather.py:156: Fetched new weather data at 2024-09-26 12:21:05.663967
+2024-09-26 12:21:06 INFO weather.py:156: Fetched new weather data at 2024-09-26 12:21:06.320679
+2024-09-26 12:31:05 INFO weather.py:156: Fetched new weather data at 2024-09-26 12:31:05.663665
+2024-09-26 12:31:06 INFO weather.py:156: Fetched new weather data at 2024-09-26 12:31:06.316114
+2024-09-26 12:41:05 INFO weather.py:156: Fetched new weather data at 2024-09-26 12:41:05.659069
+2024-09-26 12:41:06 INFO weather.py:156: Fetched new weather data at 2024-09-26 12:41:06.318538
+2024-09-26 12:51:05 INFO weather.py:156: Fetched new weather data at 2024-09-26 12:51:05.661040
+2024-09-26 12:51:06 INFO weather.py:156: Fetched new weather data at 2024-09-26 12:51:06.318420
+2024-09-26 13:01:05 INFO weather.py:156: Fetched new weather data at 2024-09-26 13:01:05.660021
+2024-09-26 13:01:06 INFO weather.py:156: Fetched new weather data at 2024-09-26 13:01:06.313815
+2024-09-26 13:11:05 INFO weather.py:156: Fetched new weather data at 2024-09-26 13:11:05.660538
+2024-09-26 13:11:06 INFO weather.py:156: Fetched new weather data at 2024-09-26 13:11:06.315506
+2024-09-26 13:21:05 INFO weather.py:156: Fetched new weather data at 2024-09-26 13:21:05.656152
+2024-09-26 13:21:06 INFO weather.py:156: Fetched new weather data at 2024-09-26 13:21:06.317085
+2024-09-26 13:31:05 INFO weather.py:156: Fetched new weather data at 2024-09-26 13:31:05.656107
+2024-09-26 13:31:06 INFO weather.py:156: Fetched new weather data at 2024-09-26 13:31:06.315061
+2024-09-26 13:41:05 INFO weather.py:156: Fetched new weather data at 2024-09-26 13:41:05.657148
+2024-09-26 13:41:06 INFO weather.py:156: Fetched new weather data at 2024-09-26 13:41:06.311991
+2024-09-26 13:51:05 INFO weather.py:156: Fetched new weather data at 2024-09-26 13:51:05.657487
+2024-09-26 13:51:06 INFO weather.py:156: Fetched new weather data at 2024-09-26 13:51:06.315753
+2024-09-26 14:01:05 INFO weather.py:156: Fetched new weather data at 2024-09-26 14:01:05.656694
+2024-09-26 14:01:06 INFO weather.py:156: Fetched new weather data at 2024-09-26 14:01:06.312846
+2024-09-26 14:10:20 INFO bar_manager.py:67: Screens updated. Re-initialising all bars.
+2024-09-26 14:10:20 INFO log.py:21: Yasb
+2024-09-26 14:10:20 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-26 14:10:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 14:10:21.215348
+2024-09-26 14:10:21 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-26 14:10:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 14:10:22.036252
+2024-09-26 14:10:22 INFO event_listener.py:52: Created named pipe yasb-bddb8192-7c4b-11ef-a7c5-74d83e4f44c0
+2024-09-26 14:10:22 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-bddb8192-7c4b-11ef-a7c5-74d83e4f44c0
+2024-09-26 14:10:22 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-26 14:10:22 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-26 14:10:22 DEBUG _windows.py:192: Thread started
+2024-09-26 14:10:22 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-bddb8192-7c4b-11ef-a7c5-74d83e4f44c0
+2024-09-26 14:20:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 14:20:21.202463
+2024-09-26 14:20:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 14:20:22.029684
+2024-09-26 14:30:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 14:30:21.202936
+2024-09-26 14:30:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 14:30:22.033202
+2024-09-26 14:40:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 14:40:21.202050
+2024-09-26 14:40:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 14:40:22.030864
+2024-09-26 14:50:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 14:50:21.201341
+2024-09-26 14:50:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 14:50:22.031365
+2024-09-26 15:00:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 15:00:21.201308
+2024-09-26 15:00:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 15:00:22.030570
+2024-09-26 15:10:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 15:10:21.201798
+2024-09-26 15:10:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 15:10:22.032378
+2024-09-26 15:11:19 WARNING event_listener.py:83: Pipe has been ended: (109, 'PeekNamedPipe', 'The pipe has been ended.')
+2024-09-26 15:11:19 INFO event_listener.py:93: Attempting to reconnect...
+2024-09-26 15:11:24 INFO event_listener.py:52: Created named pipe yasb-bddb8192-7c4b-11ef-a7c5-74d83e4f44c0
+2024-09-26 15:11:24 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-bddb8192-7c4b-11ef-a7c5-74d83e4f44c0
+2024-09-26 15:11:24 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-bddb8192-7c4b-11ef-a7c5-74d83e4f44c0
+2024-09-26 15:20:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 15:20:21.203417
+2024-09-26 15:20:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 15:20:22.031730
+2024-09-26 15:30:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 15:30:21.200703
+2024-09-26 15:30:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 15:30:22.028856
+2024-09-26 15:40:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 15:40:21.204744
+2024-09-26 15:40:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 15:40:22.030362
+2024-09-26 15:50:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 15:50:21.201168
+2024-09-26 15:50:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 15:50:22.030336
+2024-09-26 16:00:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 16:00:21.200813
+2024-09-26 16:00:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 16:00:22.031064
+2024-09-26 16:10:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 16:10:21.200303
+2024-09-26 16:10:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 16:10:22.029718
+2024-09-26 16:20:21 INFO weather.py:156: Fetched new weather data at 2024-09-26 16:20:21.200098
+2024-09-26 16:20:22 INFO weather.py:156: Fetched new weather data at 2024-09-26 16:20:22.030921
+2024-09-26 16:27:54 INFO bar_manager.py:67: Screens updated. Re-initialising all bars.
+2024-09-26 16:27:54 INFO log.py:21: Yasb
+2024-09-26 16:27:54 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-26 16:27:55 INFO weather.py:156: Fetched new weather data at 2024-09-26 16:27:55.336107
+2024-09-26 16:27:55 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-26 16:27:56 INFO weather.py:156: Fetched new weather data at 2024-09-26 16:27:56.060694
+2024-09-26 16:27:56 INFO event_listener.py:52: Created named pipe yasb-f5a42adf-7c5e-11ef-bef1-74d83e4f44c0
+2024-09-26 16:27:56 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-f5a42adf-7c5e-11ef-bef1-74d83e4f44c0
+2024-09-26 16:27:56 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-26 16:27:56 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-26 16:27:56 DEBUG _windows.py:192: Thread started
+2024-09-26 16:27:56 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-f5a42adf-7c5e-11ef-bef1-74d83e4f44c0
+2024-09-26 16:37:55 INFO weather.py:156: Fetched new weather data at 2024-09-26 16:37:55.326171
+2024-09-26 16:37:56 INFO weather.py:156: Fetched new weather data at 2024-09-26 16:37:56.062306
+2024-09-26 16:47:55 INFO weather.py:156: Fetched new weather data at 2024-09-26 16:47:55.327730
+2024-09-26 16:47:56 INFO weather.py:156: Fetched new weather data at 2024-09-26 16:47:56.063189
+2024-09-26 16:57:55 INFO weather.py:156: Fetched new weather data at 2024-09-26 16:57:55.326509
+2024-09-26 16:57:56 INFO weather.py:156: Fetched new weather data at 2024-09-26 16:57:56.059625
+2024-09-26 17:01:18 INFO bar_manager.py:67: Screens updated. Re-initialising all bars.
+2024-09-26 17:01:18 INFO log.py:21: Yasb
+2024-09-26 17:01:19 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-26 17:01:19 INFO weather.py:156: Fetched new weather data at 2024-09-26 17:01:19.313132
+2024-09-26 17:01:19 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-26 17:01:20 INFO weather.py:156: Fetched new weather data at 2024-09-26 17:01:20.059169
+2024-09-26 17:01:20 INFO event_listener.py:52: Created named pipe yasb-a01d173a-7c63-11ef-b1bc-74d83e4f44c0
+2024-09-26 17:01:20 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-a01d173a-7c63-11ef-b1bc-74d83e4f44c0
+2024-09-26 17:01:20 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-26 17:01:20 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-26 17:01:20 DEBUG _windows.py:192: Thread started
+2024-09-26 17:01:20 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-a01d173a-7c63-11ef-b1bc-74d83e4f44c0
+2024-09-26 17:11:19 INFO weather.py:156: Fetched new weather data at 2024-09-26 17:11:19.308843
+2024-09-26 17:11:20 INFO weather.py:156: Fetched new weather data at 2024-09-26 17:11:20.059161
+2024-09-26 17:21:19 INFO weather.py:156: Fetched new weather data at 2024-09-26 17:21:19.310050
+2024-09-26 17:21:20 INFO weather.py:156: Fetched new weather data at 2024-09-26 17:21:20.062444
+2024-09-26 17:31:19 INFO weather.py:156: Fetched new weather data at 2024-09-26 17:31:19.308599
+2024-09-26 17:31:20 INFO weather.py:156: Fetched new weather data at 2024-09-26 17:31:20.060058
+2024-09-26 17:41:19 INFO weather.py:156: Fetched new weather data at 2024-09-26 17:41:19.312550
+2024-09-26 17:41:20 INFO weather.py:156: Fetched new weather data at 2024-09-26 17:41:20.060509
+2024-09-26 17:51:19 INFO weather.py:156: Fetched new weather data at 2024-09-26 17:51:19.309073
+2024-09-26 17:51:20 INFO weather.py:156: Fetched new weather data at 2024-09-26 17:51:20.058612
+2024-09-26 18:01:19 INFO weather.py:156: Fetched new weather data at 2024-09-26 18:01:19.311834
+2024-09-26 18:01:20 INFO weather.py:156: Fetched new weather data at 2024-09-26 18:01:20.058379
+2024-09-26 18:11:19 INFO weather.py:156: Fetched new weather data at 2024-09-26 18:11:19.312738
+2024-09-26 18:11:20 INFO weather.py:156: Fetched new weather data at 2024-09-26 18:11:20.060506
+2024-09-26 18:21:19 INFO weather.py:156: Fetched new weather data at 2024-09-26 18:21:19.310688
+2024-09-26 18:21:20 INFO weather.py:156: Fetched new weather data at 2024-09-26 18:21:20.061659
+2024-09-26 18:31:19 INFO weather.py:156: Fetched new weather data at 2024-09-26 18:31:19.309118
+2024-09-26 18:31:20 INFO weather.py:156: Fetched new weather data at 2024-09-26 18:31:20.061473
+2024-09-26 18:41:19 INFO weather.py:156: Fetched new weather data at 2024-09-26 18:41:19.308481
+2024-09-26 18:41:20 INFO weather.py:156: Fetched new weather data at 2024-09-26 18:41:20.057833
+2024-09-26 18:51:19 INFO weather.py:156: Fetched new weather data at 2024-09-26 18:51:19.309333
+2024-09-26 18:51:20 INFO weather.py:156: Fetched new weather data at 2024-09-26 18:51:20.057540
+2024-09-26 19:01:19 INFO weather.py:156: Fetched new weather data at 2024-09-26 19:01:19.310511
+2024-09-26 19:01:20 INFO weather.py:156: Fetched new weather data at 2024-09-26 19:01:20.058388
+2024-09-26 19:11:19 INFO weather.py:156: Fetched new weather data at 2024-09-26 19:11:19.310118
+2024-09-26 19:11:20 INFO weather.py:156: Fetched new weather data at 2024-09-26 19:11:20.060141
+2024-09-26 19:21:19 INFO weather.py:156: Fetched new weather data at 2024-09-26 19:21:19.308405
+2024-09-26 19:21:20 INFO weather.py:156: Fetched new weather data at 2024-09-26 19:21:20.057544
+2024-09-26 19:31:19 INFO weather.py:156: Fetched new weather data at 2024-09-26 19:31:19.308962
+2024-09-26 19:31:20 INFO weather.py:156: Fetched new weather data at 2024-09-26 19:31:20.058121
+2024-09-26 19:41:19 INFO weather.py:156: Fetched new weather data at 2024-09-26 19:41:19.310385
+2024-09-26 19:41:20 INFO weather.py:156: Fetched new weather data at 2024-09-26 19:41:20.058788
+2024-09-26 19:51:19 INFO weather.py:156: Fetched new weather data at 2024-09-26 19:51:19.308362
+2024-09-26 19:51:20 INFO weather.py:156: Fetched new weather data at 2024-09-26 19:51:20.059469
+2024-09-26 20:01:19 INFO weather.py:156: Fetched new weather data at 2024-09-26 20:01:19.309093
+2024-09-26 20:01:20 INFO weather.py:156: Fetched new weather data at 2024-09-26 20:01:20.060560
+2024-09-26 20:11:19 INFO weather.py:156: Fetched new weather data at 2024-09-26 20:11:19.309084
+2024-09-26 20:11:20 INFO weather.py:156: Fetched new weather data at 2024-09-26 20:11:20.057884
+2024-09-26 20:21:19 INFO weather.py:156: Fetched new weather data at 2024-09-26 20:21:19.309106
+2024-09-26 20:21:20 INFO weather.py:156: Fetched new weather data at 2024-09-26 20:21:20.059221
+2024-09-26 20:29:33 INFO bar_manager.py:67: Screens updated. Re-initialising all bars.
+2024-09-26 20:29:34 INFO log.py:21: Yasb
+2024-09-26 20:29:34 DEBUG win32.py:58: Looking up time zone info from registry
+2024-09-26 20:29:34 INFO weather.py:156: Fetched new weather data at 2024-09-26 20:29:34.863504
+2024-09-26 20:29:34 DEBUG __init__.py:143: CoInitializeEx(None, 2)
+2024-09-26 20:29:35 INFO weather.py:156: Fetched new weather data at 2024-09-26 20:29:35.544849
+2024-09-26 20:29:35 INFO event_listener.py:52: Created named pipe yasb-b800cf99-7c80-11ef-9b71-74d83e4f44c0
+2024-09-26 20:29:35 INFO event_listener.py:106: Waiting for Komorebi to subscribe to named pipe yasb-b800cf99-7c80-11ef-9b71-74d83e4f44c0
+2024-09-26 20:29:35 INFO watcher.py:39: Created file watcher for path C:\Users\Ben - Work\.config\yasb
+2024-09-26 20:29:35 DEBUG _windows.py:213: Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+2024-09-26 20:29:35 DEBUG _windows.py:192: Thread started
+2024-09-26 20:29:35 INFO event_listener.py:118: Komorebi connected to named pipe: yasb-b800cf99-7c80-11ef-9b71-74d83e4f44c0
